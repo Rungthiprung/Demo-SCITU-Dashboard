@@ -1,0 +1,6546 @@
+[
+	{
+		"id" : 1,
+		"name" : "ช่องทางเดินและเก็บของ",
+		"level" : 0,
+		"room_type" : "Oth",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 2,
+		"name" : "ทางเดินเข้าห้องพักอาจารย์",
+		"level" : 2,
+		"room_type" : "Oth",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 3,
+		"name" : "สำนักงานภาควิชาวิทยาการคอมพิวเตอร์",
+		"level" : 1,
+		"room_type" : "Os",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 4,
+		"name" : "ห้อง 101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 44
+	},
+	{
+		"id" : 5,
+		"name" : "ห้อง 102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 6,
+		"name" : "ห้อง 103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 49
+	},
+	{
+		"id" : 7,
+		"name" : "ห้อง 104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 8,
+		"name" : "ห้อง 105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 9,
+		"name" : "ห้อง 106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 44
+	},
+	{
+		"id" : 10,
+		"name" : "ห้อง 106-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 11,
+		"name" : "ห้อง 107",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 44
+	},
+	{
+		"id" : 12,
+		"name" : "ห้อง 108",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 13,
+		"name" : "ห้อง 109",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 14,
+		"name" : "ห้อง 110",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 15,
+		"name" : "ห้อง 111",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 58
+	},
+	{
+		"id" : 16,
+		"name" : "ห้อง 112",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 17,
+		"name" : "ห้อง 115",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 18,
+		"name" : "ห้อง 116",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 19,
+		"name" : "ห้อง 117",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 20,
+		"name" : "ห้อง 118",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 21,
+		"name" : "ห้อง 119",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 22,
+		"name" : "ห้อง 120",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 23,
+		"name" : "ห้อง 121",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 24,
+		"name" : "ห้อง 122",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 25,
+		"name" : "ห้อง 123",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 26,
+		"name" : "ห้อง 124",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 27,
+		"name" : "ห้อง 125",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 28,
+		"name" : "ห้อง 126",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 29,
+		"name" : "ห้อง 127",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 30,
+		"name" : "ห้อง 201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 31,
+		"name" : "ห้อง 202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 32,
+		"name" : "ห้อง 203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 33,
+		"name" : "ห้อง 204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 34,
+		"name" : "ห้อง 205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 35,
+		"name" : "ห้อง 206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 36,
+		"name" : "ห้อง 207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 37,
+		"name" : "ห้อง 208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 38,
+		"name" : "ห้อง 209",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 39,
+		"name" : "ห้อง 210",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 40,
+		"name" : "ห้อง 211",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 41,
+		"name" : "ห้อง 212",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 42,
+		"name" : "ห้อง 218",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 43,
+		"name" : "ห้อง 219",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 44,
+		"name" : "ห้อง 220",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 45,
+		"name" : "ห้อง 221",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 46,
+		"name" : "ห้อง 222",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 47,
+		"name" : "ห้อง 223",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 48,
+		"name" : "ห้อง 224",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 49,
+		"name" : "ห้อง 225",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 50,
+		"name" : "ห้อง 226",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 51,
+		"name" : "ห้อง 227",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 52,
+		"name" : "ห้อง 228",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 53,
+		"name" : "ห้อง 229",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 54,
+		"name" : "ห้อง 230",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 55,
+		"name" : "ห้อง 301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : 48
+	},
+	{
+		"id" : 56,
+		"name" : "ห้อง 301-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 57,
+		"name" : "ห้อง 301-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 58,
+		"name" : "ห้อง 301-3",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 59,
+		"name" : "ห้อง 301-4",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 60,
+		"name" : "ห้อง 301-5",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 61,
+		"name" : "ห้อง 301-6",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 62,
+		"name" : "ห้อง 301-7",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 63,
+		"name" : "ห้อง 302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 64,
+		"name" : "ห้อง 304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 65,
+		"name" : "ห้อง 304-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 66,
+		"name" : "ห้อง 305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 67,
+		"name" : "ห้อง 307",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 68,
+		"name" : "ห้อง 308",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 69,
+		"name" : "ห้อง 309",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 70,
+		"name" : "ห้อง 311",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 71,
+		"name" : "ห้อง 312",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 72,
+		"name" : "ห้อง 313",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 73,
+		"name" : "ห้องกิจกรรมนักศึกษา",
+		"level" : 1,
+		"room_type" : "Oth",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 74,
+		"name" : "ห้องสมุด",
+		"level" : 2,
+		"room_type" : "Oth",
+		"building_id" : 2,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 75,
+		"name" : "ห้อง 101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 44
+	},
+	{
+		"id" : 76,
+		"name" : "ห้อง 102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 77,
+		"name" : "ห้อง 103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 78,
+		"name" : "ห้อง 104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 79,
+		"name" : "ห้อง 105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 80,
+		"name" : "ห้อง 106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 81,
+		"name" : "ห้อง 107",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 82,
+		"name" : "ห้อง 108",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 83,
+		"name" : "ห้อง 109",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 84,
+		"name" : "ห้อง 110",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 85,
+		"name" : "ห้อง 111",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 4
+	},
+	{
+		"id" : 86,
+		"name" : "ห้อง 112",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 87,
+		"name" : "ห้อง 113",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 88,
+		"name" : "ห้อง 114",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 89,
+		"name" : "ห้อง 115",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 90,
+		"name" : "ห้อง 116",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 91,
+		"name" : "ห้อง 117",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 92,
+		"name" : "ห้อง 118",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 93,
+		"name" : "ห้อง 118-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 94,
+		"name" : "ห้อง 119",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 95,
+		"name" : "ห้อง 119-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 96,
+		"name" : "ห้อง 119-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 97,
+		"name" : "ห้อง 119-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 98,
+		"name" : "ห้อง 119-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 99,
+		"name" : "ห้อง 120",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 100,
+		"name" : "ห้อง 120-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 101,
+		"name" : "ห้อง 121",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 102,
+		"name" : "ห้อง 121-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 103,
+		"name" : "ห้อง 121-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 104,
+		"name" : "ห้อง 122",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 20
+	},
+	{
+		"id" : 105,
+		"name" : "ห้อง 122-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 106,
+		"name" : "ห้อง 122-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 107,
+		"name" : "ห้อง 122-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 108,
+		"name" : "ห้อง 122-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 109,
+		"name" : "ห้อง 123",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 110,
+		"name" : "ห้อง 124-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 111,
+		"name" : "ห้อง 124-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 112,
+		"name" : "ห้อง 125-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 113,
+		"name" : "ห้อง 125-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 114,
+		"name" : "ห้อง 126",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 115,
+		"name" : "ห้อง 127",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 116,
+		"name" : "ห้อง 128",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 117,
+		"name" : "ห้อง 129",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 118,
+		"name" : "ห้อง 130",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 119,
+		"name" : "ห้อง 131",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 120,
+		"name" : "ห้อง 132",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 121,
+		"name" : "ห้อง 133",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 122,
+		"name" : "ห้อง 134",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 123,
+		"name" : "ห้อง 135",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : 17
+	},
+	{
+		"id" : 124,
+		"name" : "ห้อง 136",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 125,
+		"name" : "ห้อง 137",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 126,
+		"name" : "ห้อง 137-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 127,
+		"name" : "ห้อง 137-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 128,
+		"name" : "ห้อง 138",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 129,
+		"name" : "ห้อง 139",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 130,
+		"name" : "ห้อง 140",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 131,
+		"name" : "ห้อง 141",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 132,
+		"name" : "ห้อง 141-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 133,
+		"name" : "ห้อง 201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 134,
+		"name" : "ห้อง 203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 135,
+		"name" : "ห้อง 204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 136,
+		"name" : "ห้อง 205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 137,
+		"name" : "ห้อง 206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 138,
+		"name" : "ห้อง 207-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 139,
+		"name" : "ห้อง 207-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 140,
+		"name" : "ห้อง 208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 141,
+		"name" : "ห้อง 209",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 142,
+		"name" : "ห้อง 210",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 143,
+		"name" : "ห้อง 211",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 144,
+		"name" : "ห้อง 212",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 145,
+		"name" : "ห้อง 213",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 146,
+		"name" : "ห้อง 214",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 147,
+		"name" : "ห้อง 215",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 148,
+		"name" : "ห้อง 216",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 149,
+		"name" : "ห้อง 217-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 150,
+		"name" : "ห้อง 217-10",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 151,
+		"name" : "ห้อง 217-11",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 152,
+		"name" : "ห้อง 217-12",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 153,
+		"name" : "ห้อง 217-13",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 154,
+		"name" : "ห้อง 217-14",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 155,
+		"name" : "ห้อง 217-15",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 156,
+		"name" : "ห้อง 217-16",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 157,
+		"name" : "ห้อง 217-17",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 158,
+		"name" : "ห้อง 217-18",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 159,
+		"name" : "ห้อง 217-19",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 160,
+		"name" : "ห้อง 217-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 161,
+		"name" : "ห้อง 217-20",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 162,
+		"name" : "ห้อง 217-3",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 163,
+		"name" : "ห้อง 217-4",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 164,
+		"name" : "ห้อง 217-5",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 165,
+		"name" : "ห้อง 217-6",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 166,
+		"name" : "ห้อง 217-7",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 167,
+		"name" : "ห้อง 217-8",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 168,
+		"name" : "ห้อง 217-9",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 169,
+		"name" : "ห้อง 218",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 170,
+		"name" : "ห้อง 219",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 171,
+		"name" : "ห้อง 220",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 172,
+		"name" : "ห้อง 221",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 173,
+		"name" : "ห้อง 222",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 174,
+		"name" : "ห้อง 223",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 175,
+		"name" : "ห้อง 224",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 176,
+		"name" : "ห้อง 225",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 177,
+		"name" : "ห้อง 226",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 178,
+		"name" : "ห้อง 227",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 179,
+		"name" : "ห้อง 228",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 180,
+		"name" : "ห้อง 229",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 181,
+		"name" : "ห้อง 230",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 182,
+		"name" : "ห้อง 231",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 183,
+		"name" : "ห้อง 232",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 184,
+		"name" : "ห้อง 233",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 185,
+		"name" : "ห้อง 234",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 186,
+		"name" : "ห้อง 235",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 187,
+		"name" : "ห้อง 236",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 188,
+		"name" : "ห้อง 237",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 189,
+		"name" : "ห้อง 238",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 190,
+		"name" : "ห้อง 239",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 191,
+		"name" : "ห้อง 240",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 192,
+		"name" : "ห้อง 241",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 193,
+		"name" : "ห้อง 242",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 194,
+		"name" : "ห้อง 243",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 195,
+		"name" : "ห้อง 243-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 196,
+		"name" : "ห้องสมาคมศิษย์เก่า",
+		"level" : 0,
+		"room_type" : "Oth",
+		"building_id" : 3,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 197,
+		"name" : "ห้อง 101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 198,
+		"name" : "ห้อง 101-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 199,
+		"name" : "ห้อง 102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 200,
+		"name" : "ห้อง 103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 201,
+		"name" : "ห้อง 104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 202,
+		"name" : "ห้อง 105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 203,
+		"name" : "ห้อง 106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 204,
+		"name" : "ห้อง 106-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 205,
+		"name" : "ห้อง 106-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 206,
+		"name" : "ห้อง 106-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 207,
+		"name" : "ห้อง 107",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 208,
+		"name" : "ห้อง 108",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 209,
+		"name" : "ห้อง 109",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 210,
+		"name" : "ห้อง 110",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 211,
+		"name" : "ห้อง 111",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 212,
+		"name" : "ห้อง 112",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 213,
+		"name" : "ห้อง 113",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 214,
+		"name" : "ห้อง 114",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 215,
+		"name" : "ห้อง 115",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 216,
+		"name" : "ห้อง 115-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 217,
+		"name" : "ห้อง 120",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 218,
+		"name" : "ห้อง 201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 219,
+		"name" : "ห้อง 201-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 220,
+		"name" : "ห้อง 201-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 221,
+		"name" : "ห้อง 202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 222,
+		"name" : "ห้อง 202-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 223,
+		"name" : "ห้อง 202-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 224,
+		"name" : "ห้อง 202-3",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 225,
+		"name" : "ห้อง 203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 226,
+		"name" : "ห้อง 204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 227,
+		"name" : "ห้อง 205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 228,
+		"name" : "ห้อง 206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 229,
+		"name" : "ห้อง 207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 230,
+		"name" : "ห้อง 208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 231,
+		"name" : "ห้อง 209",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 232,
+		"name" : "ห้อง 210",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 233,
+		"name" : "ห้อง 211",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : 52
+	},
+	{
+		"id" : 234,
+		"name" : "ห้อง 212",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : 52
+	},
+	{
+		"id" : 235,
+		"name" : "ห้อง 213",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : 52
+	},
+	{
+		"id" : 236,
+		"name" : "ห้อง 214",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : 52
+	},
+	{
+		"id" : 237,
+		"name" : "ห้อง 215",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : 52
+	},
+	{
+		"id" : 238,
+		"name" : "ห้อง 219",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 239,
+		"name" : "ห้อง 220",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 240,
+		"name" : "ห้อง 221",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 241,
+		"name" : "ห้อง 222",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 242,
+		"name" : "ห้อง 223",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 243,
+		"name" : "ห้อง 224",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 244,
+		"name" : "ห้อง 225",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 245,
+		"name" : "ห้อง 226",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 246,
+		"name" : "ห้อง 227",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 247,
+		"name" : "ห้อง 301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 248,
+		"name" : "ห้อง 301-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 249,
+		"name" : "ห้อง 301-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 250,
+		"name" : "ห้อง 302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 251,
+		"name" : "ห้อง 303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 252,
+		"name" : "ห้อง 303-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 253,
+		"name" : "ห้อง 303-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 254,
+		"name" : "ห้อง 304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 255,
+		"name" : "ห้อง 305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 256,
+		"name" : "ห้อง 305-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 257,
+		"name" : "ห้อง 305-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 258,
+		"name" : "ห้อง 306",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 259,
+		"name" : "ห้อง 307",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 260,
+		"name" : "ห้อง 308",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 261,
+		"name" : "ห้อง 309",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 262,
+		"name" : "ห้อง 310",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 263,
+		"name" : "ห้อง 311",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 264,
+		"name" : "ห้อง 312",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 265,
+		"name" : "ห้อง 313",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 266,
+		"name" : "ห้อง 314",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 267,
+		"name" : "ห้อง 318",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 268,
+		"name" : "ห้อง 319",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 269,
+		"name" : "ห้อง 320",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 270,
+		"name" : "ห้อง 321",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 271,
+		"name" : "ห้อง 322",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 272,
+		"name" : "ห้อง 401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 273,
+		"name" : "ห้อง 406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 274,
+		"name" : "ห้อง 407",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 275,
+		"name" : "ห้องสันทนาการ",
+		"level" : 0,
+		"room_type" : "Oth",
+		"building_id" : 4,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 276,
+		"name" : "ห้อง A101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 277,
+		"name" : "ห้อง A101-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 278,
+		"name" : "ห้อง A101-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 279,
+		"name" : "ห้อง A201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 280,
+		"name" : "ห้อง A201-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 281,
+		"name" : "ห้อง A202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 282,
+		"name" : "ห้อง A202-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 283,
+		"name" : "ห้อง A301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 284,
+		"name" : "ห้อง A302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 285,
+		"name" : "ห้อง A401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 286,
+		"name" : "ห้อง A401-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 287,
+		"name" : "ห้อง A401-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 288,
+		"name" : "ห้อง A402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 289,
+		"name" : "ห้อง A403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 290,
+		"name" : "ห้อง A404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 291,
+		"name" : "ห้อง A404-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 292,
+		"name" : "ห้อง A404-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 293,
+		"name" : "ห้อง A404-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 294,
+		"name" : "ห้อง A404-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 295,
+		"name" : "ห้อง A404-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 296,
+		"name" : "ห้อง A404-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 297,
+		"name" : "ห้อง A404-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 298,
+		"name" : "ห้อง A405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 299,
+		"name" : "ห้อง A405-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 300,
+		"name" : "ห้อง A405-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 301,
+		"name" : "ห้อง A405-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 302,
+		"name" : "ห้อง A405-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 303,
+		"name" : "ห้อง A405-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 304,
+		"name" : "ห้อง A405-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 305,
+		"name" : "ห้อง A406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 306,
+		"name" : "ห้อง A407",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 307,
+		"name" : "ห้อง A407-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 308,
+		"name" : "ห้อง A407-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 309,
+		"name" : "ห้อง A408",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 310,
+		"name" : "ห้อง A408-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 311,
+		"name" : "ห้อง A408-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 312,
+		"name" : "ห้อง A501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 313,
+		"name" : "ห้อง A501-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 314,
+		"name" : "ห้อง A502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 315,
+		"name" : "ห้อง A502-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 316,
+		"name" : "ห้อง A503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 317,
+		"name" : "ห้อง A503-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 318,
+		"name" : "ห้อง A504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 319,
+		"name" : "ห้อง A504-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 320,
+		"name" : "ห้อง A504-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 321,
+		"name" : "ห้อง B101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 322,
+		"name" : "ห้อง B101-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 323,
+		"name" : "ห้อง B102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 324,
+		"name" : "ห้อง B102-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 325,
+		"name" : "ห้อง B103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 326,
+		"name" : "ห้อง B103-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 327,
+		"name" : "ห้อง B103-10",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 328,
+		"name" : "ห้อง B103-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 329,
+		"name" : "ห้อง B103-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 330,
+		"name" : "ห้อง B103-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 331,
+		"name" : "ห้อง B103-5",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 332,
+		"name" : "ห้อง B103-6",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 333,
+		"name" : "ห้อง B103-7",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 334,
+		"name" : "ห้อง B103-8",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 335,
+		"name" : "ห้อง B103-9",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 336,
+		"name" : "ห้อง B104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 337,
+		"name" : "ห้อง B105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 338,
+		"name" : "ห้อง B106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 339,
+		"name" : "ห้อง B201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 340,
+		"name" : "ห้อง B201-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 341,
+		"name" : "ห้อง B202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 342,
+		"name" : "ห้อง B202-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 343,
+		"name" : "ห้อง B202-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 344,
+		"name" : "ห้อง B202-3",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 345,
+		"name" : "ห้อง B202-4",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 346,
+		"name" : "ห้อง B202-5",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 347,
+		"name" : "ห้อง B202-6",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 348,
+		"name" : "ห้อง B202-7",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 349,
+		"name" : "ห้อง B202-8",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 350,
+		"name" : "ห้อง B202-9",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 351,
+		"name" : "ห้อง B203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 352,
+		"name" : "ห้อง B204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 353,
+		"name" : "ห้อง B205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 354,
+		"name" : "ห้อง B206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 355,
+		"name" : "ห้อง B207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 356,
+		"name" : "ห้อง B401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 357,
+		"name" : "ห้อง B401-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 358,
+		"name" : "ห้อง B401-10",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 359,
+		"name" : "ห้อง B401-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 360,
+		"name" : "ห้อง B401-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 361,
+		"name" : "ห้อง B401-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 362,
+		"name" : "ห้อง B401-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 363,
+		"name" : "ห้อง B401-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 364,
+		"name" : "ห้อง B401-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 365,
+		"name" : "ห้อง B401-8",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 366,
+		"name" : "ห้อง B401-9",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 367,
+		"name" : "ห้อง B402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 368,
+		"name" : "ห้อง B402-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 369,
+		"name" : "ห้อง B402-10",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 370,
+		"name" : "ห้อง B402-11",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 371,
+		"name" : "ห้อง B402-12",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 372,
+		"name" : "ห้อง B402-13",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 373,
+		"name" : "ห้อง B402-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 374,
+		"name" : "ห้อง B402-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 375,
+		"name" : "ห้อง B402-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 376,
+		"name" : "ห้อง B402-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 377,
+		"name" : "ห้อง B402-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 378,
+		"name" : "ห้อง B402-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 379,
+		"name" : "ห้อง B402-8",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 380,
+		"name" : "ห้อง B402-9",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 381,
+		"name" : "ห้อง B403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 382,
+		"name" : "ห้อง B403-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 383,
+		"name" : "ห้อง B403-10",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 384,
+		"name" : "ห้อง B403-11",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 385,
+		"name" : "ห้อง B403-12",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 386,
+		"name" : "ห้อง B403-13",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 387,
+		"name" : "ห้อง B403-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 388,
+		"name" : "ห้อง B403-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 389,
+		"name" : "ห้อง B403-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 390,
+		"name" : "ห้อง B403-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 391,
+		"name" : "ห้อง B403-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 392,
+		"name" : "ห้อง B403-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 393,
+		"name" : "ห้อง B403-8",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 394,
+		"name" : "ห้อง B403-9",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 395,
+		"name" : "ห้อง B404-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 396,
+		"name" : "ห้อง B404-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 397,
+		"name" : "ห้อง B404-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 398,
+		"name" : "ห้อง B404-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 399,
+		"name" : "ห้อง B404-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 400,
+		"name" : "ห้อง B404-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 401,
+		"name" : "ห้อง B404-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 402,
+		"name" : "ห้อง B404-8",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 403,
+		"name" : "ห้อง B405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 404,
+		"name" : "ห้อง B405-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 405,
+		"name" : "ห้อง B405-10",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 406,
+		"name" : "ห้อง B405-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 407,
+		"name" : "ห้อง B405-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 408,
+		"name" : "ห้อง B405-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 409,
+		"name" : "ห้อง B405-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 410,
+		"name" : "ห้อง B405-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 411,
+		"name" : "ห้อง B405-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 412,
+		"name" : "ห้อง B405-8",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 413,
+		"name" : "ห้อง B405-9",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 414,
+		"name" : "ห้อง B406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 415,
+		"name" : "ห้อง B407",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 416,
+		"name" : "ห้อง B407-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 417,
+		"name" : "ห้อง B407-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 418,
+		"name" : "ห้อง B407-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 419,
+		"name" : "ห้อง B408",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 420,
+		"name" : "ห้อง B408-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 421,
+		"name" : "ห้อง B408-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 422,
+		"name" : "ห้อง B408-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 423,
+		"name" : "ห้อง B408-4",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 424,
+		"name" : "ห้อง B408-5",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 425,
+		"name" : "ห้อง B408-6",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 426,
+		"name" : "ห้อง B408-7",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 427,
+		"name" : "ห้อง B501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 428,
+		"name" : "ห้อง B501-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 429,
+		"name" : "ห้อง B501-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 430,
+		"name" : "ห้อง B502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 431,
+		"name" : "ห้อง B502-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 432,
+		"name" : "ห้อง B502-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 433,
+		"name" : "ห้อง B503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 434,
+		"name" : "ห้อง B503-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 435,
+		"name" : "ห้อง B503-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 436,
+		"name" : "ห้อง B503-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 437,
+		"name" : "ห้อง B503-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 438,
+		"name" : "ห้อง B503-5",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 439,
+		"name" : "ห้อง B503-6",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 440,
+		"name" : "ห้อง B504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 441,
+		"name" : "ห้อง B505-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 442,
+		"name" : "ห้อง B505-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 443,
+		"name" : "ห้อง B505-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 444,
+		"name" : "ห้อง B505-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 445,
+		"name" : "ห้อง B505-5",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 446,
+		"name" : "ห้อง B505-6",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 447,
+		"name" : "ห้อง B505-7",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 448,
+		"name" : "ห้อง B505-8",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 449,
+		"name" : "ห้อง B506",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 450,
+		"name" : "ห้อง B506-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 451,
+		"name" : "ห้อง B506-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 452,
+		"name" : "ห้อง B506-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 453,
+		"name" : "ห้อง B506-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 454,
+		"name" : "ห้อง B507",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 455,
+		"name" : "ห้อง B507-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 456,
+		"name" : "ห้อง B507-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 457,
+		"name" : "ห้อง B507-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 458,
+		"name" : "ห้อง B507-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 459,
+		"name" : "ห้อง B508",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 460,
+		"name" : "ห้อง B508-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 461,
+		"name" : "ห้อง B508-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 462,
+		"name" : "ห้อง B508-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 463,
+		"name" : "ห้อง B508-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 464,
+		"name" : "ห้อง B509",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 465,
+		"name" : "ห้อง B509-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 466,
+		"name" : "ห้อง B509-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 467,
+		"name" : "ห้อง B510",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 468,
+		"name" : "ห้อง B510-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 469,
+		"name" : "ห้อง B510-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 470,
+		"name" : "ห้อง B511",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 471,
+		"name" : "ห้อง B511-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 472,
+		"name" : "ห้อง B511-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 473,
+		"name" : "ห้อง B512",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 474,
+		"name" : "ห้อง B512-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 475,
+		"name" : "ห้อง B512-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 476,
+		"name" : "ห้อง B512-3",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 477,
+		"name" : "ห้อง B512-4",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 478,
+		"name" : "ห้อง B512-5",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 479,
+		"name" : "ห้อง B512-6",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 480,
+		"name" : "ห้อง B512-7",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 481,
+		"name" : "ห้อง B512-8",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 482,
+		"name" : "ห้อง B512-9",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 483,
+		"name" : "ห้อง B513",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 484,
+		"name" : "ห้อง B513-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 485,
+		"name" : "ห้อง B513-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 496,
+		"name" : "ห้อง B514",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 497,
+		"name" : "ห้อง B514-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 498,
+		"name" : "ห้อง B514-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 499,
+		"name" : "ห้อง C101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 500,
+		"name" : "ห้อง C101-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 501,
+		"name" : "ห้อง C102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 502,
+		"name" : "ห้อง C103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 503,
+		"name" : "ห้อง C104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 504,
+		"name" : "ห้อง C105-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 505,
+		"name" : "ห้อง C105-10",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 506,
+		"name" : "ห้อง C105-11",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 507,
+		"name" : "ห้อง C105-12",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 508,
+		"name" : "ห้อง C105-13",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 509,
+		"name" : "ห้อง C105-14",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 510,
+		"name" : "ห้อง C105-15",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 511,
+		"name" : "ห้อง C105-16",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 512,
+		"name" : "ห้อง C105-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 513,
+		"name" : "ห้อง C105-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 514,
+		"name" : "ห้อง C105-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 515,
+		"name" : "ห้อง C105-5",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 516,
+		"name" : "ห้อง C105-6",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 517,
+		"name" : "ห้อง C105-7",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 518,
+		"name" : "ห้อง C105-8",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 519,
+		"name" : "ห้อง C105-9",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 520,
+		"name" : "ห้อง C106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 521,
+		"name" : "ห้อง C106-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 522,
+		"name" : "ห้อง C106-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 523,
+		"name" : "ห้อง C106-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 524,
+		"name" : "ห้อง C106-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 525,
+		"name" : "ห้อง C106-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 526,
+		"name" : "ห้อง C107",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 527,
+		"name" : "ห้อง C107-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 528,
+		"name" : "ห้อง C107-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 529,
+		"name" : "ห้อง C107-3",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 530,
+		"name" : "ห้อง C107-4",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 531,
+		"name" : "ห้อง C108",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 532,
+		"name" : "ห้อง C108-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 533,
+		"name" : "ห้อง C108-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 534,
+		"name" : "ห้อง C109",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 535,
+		"name" : "ห้อง C109-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 536,
+		"name" : "ห้อง C109-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 537,
+		"name" : "ห้อง C201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 538,
+		"name" : "ห้อง C201-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 539,
+		"name" : "ห้อง C201-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 540,
+		"name" : "ห้อง C202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 541,
+		"name" : "ห้อง C202-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 542,
+		"name" : "ห้อง C202-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 543,
+		"name" : "ห้อง C203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 544,
+		"name" : "ห้อง C203-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 545,
+		"name" : "ห้อง C203-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 546,
+		"name" : "ห้อง C203-4",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 547,
+		"name" : "ห้อง C204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 548,
+		"name" : "ห้อง C204-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 549,
+		"name" : "ห้อง C204-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 550,
+		"name" : "ห้อง C204-3",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 551,
+		"name" : "ห้อง C204-4",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 552,
+		"name" : "ห้อง C205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 553,
+		"name" : "ห้อง C205-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 554,
+		"name" : "ห้อง C205-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 555,
+		"name" : "ห้อง C206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 556,
+		"name" : "ห้อง C206-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 557,
+		"name" : "ห้อง C206-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 558,
+		"name" : "ห้อง C207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 559,
+		"name" : "ห้อง C207-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 560,
+		"name" : "ห้อง C207-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 561,
+		"name" : "ห้อง C301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 562,
+		"name" : "ห้อง C301-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 563,
+		"name" : "ห้อง C301-10",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 564,
+		"name" : "ห้อง C301-11",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 565,
+		"name" : "ห้อง C301-12",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 566,
+		"name" : "ห้อง C301-13",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 567,
+		"name" : "ห้อง C301-14",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 568,
+		"name" : "ห้อง C301-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 569,
+		"name" : "ห้อง C301-3",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 570,
+		"name" : "ห้อง C301-4",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 571,
+		"name" : "ห้อง C301-5",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 572,
+		"name" : "ห้อง C301-6",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 573,
+		"name" : "ห้อง C301-7",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 574,
+		"name" : "ห้อง C301-8",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 575,
+		"name" : "ห้อง C301-9",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 576,
+		"name" : "ห้อง C401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 577,
+		"name" : "ห้อง C401-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 578,
+		"name" : "ห้อง C401-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 579,
+		"name" : "ห้อง C402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 580,
+		"name" : "ห้อง C402-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 581,
+		"name" : "ห้อง C403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 582,
+		"name" : "ห้อง C403-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 583,
+		"name" : "ห้อง C404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 584,
+		"name" : "ห้อง C404-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 585,
+		"name" : "ห้อง C404-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 586,
+		"name" : "ห้อง C405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 587,
+		"name" : "ห้อง C406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 49
+	},
+	{
+		"id" : 588,
+		"name" : "ห้อง C406-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 589,
+		"name" : "ห้อง C406-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 590,
+		"name" : "ห้อง C407",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 591,
+		"name" : "ห้อง C408",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 592,
+		"name" : "ห้อง C409",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 593,
+		"name" : "ห้อง C410",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 594,
+		"name" : "ห้อง C411",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 595,
+		"name" : "ห้อง C411-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 596,
+		"name" : "ห้อง C411-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 597,
+		"name" : "ห้อง C501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 598,
+		"name" : "ห้อง C502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 599,
+		"name" : "ห้อง C502-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 600,
+		"name" : "ห้อง C502-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 601,
+		"name" : "ห้อง C503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 602,
+		"name" : "ห้อง C504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 603,
+		"name" : "ห้อง C505",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 604,
+		"name" : "ห้อง C506",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 605,
+		"name" : "ห้อง C506-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 606,
+		"name" : "ห้อง C506-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 607,
+		"name" : "ห้อง C507",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 608,
+		"name" : "ห้อง C507-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 609,
+		"name" : "ห้อง C507-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 610,
+		"name" : "ห้อง C508",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 611,
+		"name" : "ห้อง C508-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 612,
+		"name" : "ห้อง C508-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 613,
+		"name" : "ห้อง C509",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 614,
+		"name" : "ห้อง C509-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 615,
+		"name" : "ห้อง C509-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 616,
+		"name" : "ห้อง C510",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 617,
+		"name" : "ห้อง C510-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 618,
+		"name" : "ห้อง C510-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 619,
+		"name" : "ห้อง EU101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 620,
+		"name" : "ห้อง EU102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 621,
+		"name" : "ห้อง EU103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 622,
+		"name" : "ห้อง EU104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 623,
+		"name" : "ห้อง EU105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 624,
+		"name" : "ห้อง EU106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 625,
+		"name" : "ห้อง EU107",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 626,
+		"name" : "ห้อง EU108",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 627,
+		"name" : "ห้อง EU109",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 628,
+		"name" : "ห้อง EU201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 629,
+		"name" : "ห้อง EU202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 630,
+		"name" : "ห้อง EU203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 631,
+		"name" : "ห้อง EU204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 632,
+		"name" : "ห้อง EU205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 633,
+		"name" : "ห้อง EU206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 634,
+		"name" : "ห้อง EU207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 635,
+		"name" : "ห้อง EU208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 636,
+		"name" : "ห้อง EU301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 637,
+		"name" : "ห้อง EU301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 638,
+		"name" : "ห้อง EU302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 639,
+		"name" : "ห้อง EU303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 640,
+		"name" : "ห้อง EU304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 641,
+		"name" : "ห้อง EU305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 642,
+		"name" : "ห้อง EU307",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 643,
+		"name" : "ห้อง EU401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 644,
+		"name" : "ห้อง EU401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 645,
+		"name" : "ห้อง EU402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 646,
+		"name" : "ห้อง EU403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 647,
+		"name" : "ห้อง EU404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 648,
+		"name" : "ห้อง EU405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 649,
+		"name" : "ห้อง EU406-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 650,
+		"name" : "ห้อง EU406-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 651,
+		"name" : "ห้อง EU501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 652,
+		"name" : "ห้อง EU502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 653,
+		"name" : "ห้อง EU503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 654,
+		"name" : "ห้อง EU504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 655,
+		"name" : "ห้อง EU505",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 656,
+		"name" : "ห้อง EU506-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 657,
+		"name" : "ห้อง EU506-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 658,
+		"name" : "ห้อง F101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 659,
+		"name" : "ห้อง F101-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 660,
+		"name" : "ห้อง F101-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 661,
+		"name" : "ห้อง F102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 662,
+		"name" : "ห้อง F103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 663,
+		"name" : "ห้อง F103-1",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 664,
+		"name" : "ห้อง F103-2",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 665,
+		"name" : "ห้อง F104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 666,
+		"name" : "ห้อง F201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 667,
+		"name" : "ห้อง F201-1",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 668,
+		"name" : "ห้อง F201-2",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 669,
+		"name" : "ห้อง F201-3",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 670,
+		"name" : "ห้อง F201-4",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 671,
+		"name" : "ห้อง F301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 672,
+		"name" : "ห้อง F401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 673,
+		"name" : "ห้อง F401-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 674,
+		"name" : "ห้อง F401-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 675,
+		"name" : "ห้อง F401-3",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 676,
+		"name" : "ห้อง F402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 677,
+		"name" : "ห้อง F402-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 678,
+		"name" : "ห้อง F402-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 679,
+		"name" : "ห้อง F403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 680,
+		"name" : "ห้อง F404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 681,
+		"name" : "ห้อง F405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 682,
+		"name" : "ห้อง F406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 683,
+		"name" : "ห้อง M301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 684,
+		"name" : "ห้อง M302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 685,
+		"name" : "ห้อง M303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 686,
+		"name" : "ห้อง M304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 687,
+		"name" : "ห้อง M306",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 688,
+		"name" : "ห้อง M307",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 689,
+		"name" : "ห้อง NU101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 690,
+		"name" : "ห้อง NU102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 691,
+		"name" : "ห้อง NU103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 692,
+		"name" : "ห้อง NU104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 693,
+		"name" : "ห้อง NU105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 694,
+		"name" : "ห้อง NU106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 695,
+		"name" : "ห้อง NU201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 696,
+		"name" : "ห้อง NU202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 697,
+		"name" : "ห้อง NU203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 698,
+		"name" : "ห้อง NU204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 699,
+		"name" : "ห้อง NU205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 700,
+		"name" : "ห้อง NU206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 701,
+		"name" : "ห้อง NU301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 702,
+		"name" : "ห้อง NU302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 703,
+		"name" : "ห้อง NU303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 704,
+		"name" : "ห้อง NU304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 705,
+		"name" : "ห้อง NU305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 706,
+		"name" : "ห้อง NU306",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 707,
+		"name" : "ห้อง NU401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 708,
+		"name" : "ห้อง NU402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 709,
+		"name" : "ห้อง NU403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 710,
+		"name" : "ห้อง NU404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 711,
+		"name" : "ห้อง NU405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 712,
+		"name" : "ห้อง NU406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 713,
+		"name" : "ห้อง NU501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 714,
+		"name" : "ห้อง NU502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 715,
+		"name" : "ห้อง NU503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 716,
+		"name" : "ห้อง NU504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 717,
+		"name" : "ห้อง NU505",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 718,
+		"name" : "ห้อง NU506",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 719,
+		"name" : "ห้อง R301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 720,
+		"name" : "ห้อง R301-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 721,
+		"name" : "ห้อง R301-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 722,
+		"name" : "ห้อง R302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 723,
+		"name" : "ห้อง R303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 724,
+		"name" : "ห้อง R303-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 725,
+		"name" : "ห้อง R303-2",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 726,
+		"name" : "ห้อง S101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 727,
+		"name" : "ห้อง S102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 728,
+		"name" : "ห้อง S103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 17
+	},
+	{
+		"id" : 729,
+		"name" : "ห้อง S104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 730,
+		"name" : "ห้อง S105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 731,
+		"name" : "ห้อง S106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 29
+	},
+	{
+		"id" : 732,
+		"name" : "ห้อง S201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 26
+	},
+	{
+		"id" : 733,
+		"name" : "ห้อง S202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 26
+	},
+	{
+		"id" : 734,
+		"name" : "ห้อง S203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 26
+	},
+	{
+		"id" : 735,
+		"name" : "ห้อง S204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 26
+	},
+	{
+		"id" : 736,
+		"name" : "ห้อง S205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 737,
+		"name" : "ห้อง S206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 738,
+		"name" : "ห้อง S207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 739,
+		"name" : "ห้อง S208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 26
+	},
+	{
+		"id" : 740,
+		"name" : "ห้อง S209",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 19
+	},
+	{
+		"id" : 741,
+		"name" : "ห้อง S210",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 19
+	},
+	{
+		"id" : 742,
+		"name" : "ห้อง S211",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 19
+	},
+	{
+		"id" : 743,
+		"name" : "ห้อง S212",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 19
+	},
+	{
+		"id" : 744,
+		"name" : "ห้อง S301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 745,
+		"name" : "ห้อง S302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 746,
+		"name" : "ห้อง S303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 747,
+		"name" : "ห้อง S304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 748,
+		"name" : "ห้อง S305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 749,
+		"name" : "ห้อง S306",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 750,
+		"name" : "ห้อง S306-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 751,
+		"name" : "ห้อง S307",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 752,
+		"name" : "ห้อง S308",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 17
+	},
+	{
+		"id" : 753,
+		"name" : "ห้อง S308-1",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 754,
+		"name" : "ห้อง S309",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 755,
+		"name" : "ห้อง S310",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 756,
+		"name" : "ห้อง S311",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 757,
+		"name" : "ห้อง S312",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : 17
+	},
+	{
+		"id" : 758,
+		"name" : "ห้อง S313",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 759,
+		"name" : "ห้อง S314",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 760,
+		"name" : "ห้อง S315",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 761,
+		"name" : "ห้อง SU101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 762,
+		"name" : "ห้อง SU102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 763,
+		"name" : "ห้อง SU103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 764,
+		"name" : "ห้อง SU104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 765,
+		"name" : "ห้อง SU105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 766,
+		"name" : "ห้อง SU106",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 767,
+		"name" : "ห้อง SU201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 768,
+		"name" : "ห้อง SU202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 769,
+		"name" : "ห้อง SU203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 770,
+		"name" : "ห้อง SU204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 771,
+		"name" : "ห้อง SU205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 772,
+		"name" : "ห้อง SU206",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 773,
+		"name" : "ห้อง SU301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 774,
+		"name" : "ห้อง SU302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 775,
+		"name" : "ห้อง SU303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 776,
+		"name" : "ห้อง SU304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 777,
+		"name" : "ห้อง SU305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 778,
+		"name" : "ห้อง SU306",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 779,
+		"name" : "ห้อง SU401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 780,
+		"name" : "ห้อง SU402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 781,
+		"name" : "ห้อง SU403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 782,
+		"name" : "ห้อง SU404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 783,
+		"name" : "ห้อง SU405",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 784,
+		"name" : "ห้อง SU406",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 785,
+		"name" : "ห้อง SU501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 786,
+		"name" : "ห้อง SU502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 787,
+		"name" : "ห้อง SU503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 788,
+		"name" : "ห้อง SU504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 789,
+		"name" : "ห้อง SU505",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 790,
+		"name" : "ห้อง SU506",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 791,
+		"name" : "ห้อง U111",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 792,
+		"name" : "ห้อง WU101",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 793,
+		"name" : "ห้อง WU102",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 794,
+		"name" : "ห้อง WU103",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 795,
+		"name" : "ห้อง WU104",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 796,
+		"name" : "ห้อง WU105",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 797,
+		"name" : "ห้อง WU110",
+		"level" : 1,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 798,
+		"name" : "ห้อง WU201",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 799,
+		"name" : "ห้อง WU202",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 800,
+		"name" : "ห้อง WU203",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 801,
+		"name" : "ห้อง WU204",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 802,
+		"name" : "ห้อง WU205",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 803,
+		"name" : "ห้อง WU207",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 804,
+		"name" : "ห้อง WU208",
+		"level" : 2,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 805,
+		"name" : "ห้อง WU301",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 806,
+		"name" : "ห้อง WU302",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 807,
+		"name" : "ห้อง WU303",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 808,
+		"name" : "ห้อง WU304",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 809,
+		"name" : "ห้อง WU305",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 810,
+		"name" : "ห้อง WU307",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 811,
+		"name" : "ห้อง WU308",
+		"level" : 3,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 812,
+		"name" : "ห้อง WU401",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 813,
+		"name" : "ห้อง WU402",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 814,
+		"name" : "ห้อง WU403",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 815,
+		"name" : "ห้อง WU404",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 816,
+		"name" : "ห้อง WU406-1",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 817,
+		"name" : "ห้อง WU406-2",
+		"level" : 4,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 818,
+		"name" : "ห้อง WU501",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 819,
+		"name" : "ห้อง WU502",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 820,
+		"name" : "ห้อง WU503",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 821,
+		"name" : "ห้อง WU504",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 822,
+		"name" : "ห้อง WU505",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 823,
+		"name" : "ห้อง WU506-1",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 824,
+		"name" : "ห้อง WU506-2",
+		"level" : 5,
+		"room_type" : "Cr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 825,
+		"name" : "ห้องสัมนาบัณฑิต 1",
+		"level" : 0,
+		"room_type" : "Mr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 826,
+		"name" : "ห้องสัมนาบัณฑิต 2",
+		"level" : 0,
+		"room_type" : "Mr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 827,
+		"name" : "ห้องสัมนาบัณฑิต 3",
+		"level" : 0,
+		"room_type" : "Mr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	},
+	{
+		"id" : 828,
+		"name" : "ห้องสัมนาบัณฑิต 4",
+		"level" : 0,
+		"room_type" : "Mr",
+		"building_id" : 5,
+		"caretaker_id" : null
+	}
+]

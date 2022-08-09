@@ -1,0 +1,6552 @@
+- model: sci_dashboard_app.room
+  pk: 1
+  fields:
+    name: "\u0E0A\u0E48\u0E2D\u0E07\u0E17\u0E32\u0E07\u0E40\u0E14\u0E34\u0E19\u0E41\u0E25\u0E30\u0E40\u0E01\u0E47\u0E1A\u0E02\u0E2D\u0E07"
+    building: 2
+    level: 0
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 2
+  fields:
+    name: "\u0E17\u0E32\u0E07\u0E40\u0E14\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\u0E2B\u0E49\u0E2D\u0E07\u0E1E\u0E31\u0E01\u0E2D\u0E32\u0E08\u0E32\u0E23\u0E22\u0E4C"
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 3
+  fields:
+    name: "\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E20\u0E32\u0E04\u0E27\u0E34\u0E0A\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E01\u0E32\u0E23\u0E04\u0E2D\u0E21\u0E1E\u0E34\u0E27\u0E40\u0E15\u0E2D\u0E23\u0E4C"
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Os
+- model: sci_dashboard_app.room
+  pk: 73
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32"
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 74
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E21\u0E38\u0E14"
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 4
+  fields:
+    name: 101
+    building: 2
+    level: 1
+    caretaker: 44
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 5
+  fields:
+    name: 102
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 6
+  fields:
+    name: 103
+    building: 2
+    level: 1
+    caretaker: 49
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 7
+  fields:
+    name: 104
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 8
+  fields:
+    name: 105
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 9
+  fields:
+    name: 106
+    building: 2
+    level: 1
+    caretaker: 44
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 10
+  fields:
+    name: 106-1
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 11
+  fields:
+    name: 107
+    building: 2
+    level: 1
+    caretaker: 44
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 12
+  fields:
+    name: 108
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 13
+  fields:
+    name: 109
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 14
+  fields:
+    name: 110
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 15
+  fields:
+    name: 111
+    building: 2
+    level: 1
+    caretaker: 58
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 16
+  fields:
+    name: 112
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 17
+  fields:
+    name: 115
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 18
+  fields:
+    name: 116
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 19
+  fields:
+    name: 117
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 20
+  fields:
+    name: 118
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 21
+  fields:
+    name: 119
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 22
+  fields:
+    name: 120
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 23
+  fields:
+    name: 121
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 24
+  fields:
+    name: 122
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 25
+  fields:
+    name: 123
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 26
+  fields:
+    name: 124
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 27
+  fields:
+    name: 125
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 28
+  fields:
+    name: 126
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 29
+  fields:
+    name: 127
+    building: 2
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 30
+  fields:
+    name: 201
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 31
+  fields:
+    name: 202
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 32
+  fields:
+    name: 203
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 33
+  fields:
+    name: 204
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 34
+  fields:
+    name: 205
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 35
+  fields:
+    name: 206
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 36
+  fields:
+    name: 207
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 37
+  fields:
+    name: 208
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 38
+  fields:
+    name: 209
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 39
+  fields:
+    name: 210
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 40
+  fields:
+    name: 211
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 41
+  fields:
+    name: 212
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 42
+  fields:
+    name: 218
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 43
+  fields:
+    name: 219
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 44
+  fields:
+    name: 220
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 45
+  fields:
+    name: 221
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 46
+  fields:
+    name: 222
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 47
+  fields:
+    name: 223
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 48
+  fields:
+    name: 224
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 49
+  fields:
+    name: 225
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 50
+  fields:
+    name: 226
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 51
+  fields:
+    name: 227
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 52
+  fields:
+    name: 228
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 53
+  fields:
+    name: 229
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 54
+  fields:
+    name: 230
+    building: 2
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 55
+  fields:
+    name: 301
+    building: 2
+    level: 3
+    caretaker: 48
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 56
+  fields:
+    name: 301-1
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 57
+  fields:
+    name: 301-2
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 58
+  fields:
+    name: 301-3
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 59
+  fields:
+    name: 301-4
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 60
+  fields:
+    name: 301-5
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 61
+  fields:
+    name: 301-6
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 62
+  fields:
+    name: 301-7
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 63
+  fields:
+    name: 302
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 64
+  fields:
+    name: 304
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 65
+  fields:
+    name: 304-1
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 66
+  fields:
+    name: 305
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 67
+  fields:
+    name: 307
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 68
+  fields:
+    name: 308
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 69
+  fields:
+    name: 309
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 70
+  fields:
+    name: 311
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 71
+  fields:
+    name: 312
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 72
+  fields:
+    name: 313
+    building: 2
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 75
+  fields:
+    name: 101
+    building: 3
+    level: 1
+    caretaker: 44
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 76
+  fields:
+    name: 102
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 77
+  fields:
+    name: 103
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 78
+  fields:
+    name: 104
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 79
+  fields:
+    name: 105
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 80
+  fields:
+    name: 106
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 81
+  fields:
+    name: 107
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 82
+  fields:
+    name: 108
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 83
+  fields:
+    name: 109
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 84
+  fields:
+    name: 110
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 85
+  fields:
+    name: 111
+    building: 3
+    level: 1
+    caretaker: 4
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 86
+  fields:
+    name: 112
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 87
+  fields:
+    name: 113
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 88
+  fields:
+    name: 114
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 89
+  fields:
+    name: 115
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 90
+  fields:
+    name: 116
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 91
+  fields:
+    name: 117
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 92
+  fields:
+    name: 118
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 93
+  fields:
+    name: 118-1
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 94
+  fields:
+    name: 119
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 95
+  fields:
+    name: 119-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 96
+  fields:
+    name: 119-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 97
+  fields:
+    name: 119-3
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 98
+  fields:
+    name: 119-4
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 99
+  fields:
+    name: 120
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 100
+  fields:
+    name: 120-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 101
+  fields:
+    name: 121
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 102
+  fields:
+    name: 121-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 103
+  fields:
+    name: 121-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 104
+  fields:
+    name: 122
+    building: 3
+    level: 1
+    caretaker: 20
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 105
+  fields:
+    name: 122-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 106
+  fields:
+    name: 122-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 107
+  fields:
+    name: 122-3
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 108
+  fields:
+    name: 122-4
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 109
+  fields:
+    name: 123
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 110
+  fields:
+    name: 124-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 111
+  fields:
+    name: 124-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 112
+  fields:
+    name: 125-1
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 113
+  fields:
+    name: 125-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 114
+  fields:
+    name: 126
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 115
+  fields:
+    name: 127
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 116
+  fields:
+    name: 128
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 117
+  fields:
+    name: 129
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 118
+  fields:
+    name: 130
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 119
+  fields:
+    name: 131
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 120
+  fields:
+    name: 132
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 121
+  fields:
+    name: 133
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 122
+  fields:
+    name: 134
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 123
+  fields:
+    name: 135
+    building: 3
+    level: 1
+    caretaker: 17
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 124
+  fields:
+    name: 136
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 125
+  fields:
+    name: 137
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 126
+  fields:
+    name: 137-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 127
+  fields:
+    name: 137-3
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 128
+  fields:
+    name: 138
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 129
+  fields:
+    name: 139
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 130
+  fields:
+    name: 140
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 131
+  fields:
+    name: 141
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 132
+  fields:
+    name: 141-2
+    building: 3
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 133
+  fields:
+    name: 201
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 134
+  fields:
+    name: 203
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 135
+  fields:
+    name: 204
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 136
+  fields:
+    name: 205
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 137
+  fields:
+    name: 206
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 138
+  fields:
+    name: 207-1
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 139
+  fields:
+    name: 207-2
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 140
+  fields:
+    name: 208
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 141
+  fields:
+    name: 209
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 142
+  fields:
+    name: 210
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 143
+  fields:
+    name: 211
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 144
+  fields:
+    name: 212
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 145
+  fields:
+    name: 213
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 146
+  fields:
+    name: 214
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 147
+  fields:
+    name: 215
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 148
+  fields:
+    name: 216
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 149
+  fields:
+    name: 217-1
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 150
+  fields:
+    name: 217-10
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 151
+  fields:
+    name: 217-11
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 152
+  fields:
+    name: 217-12
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 153
+  fields:
+    name: 217-13
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 154
+  fields:
+    name: 217-14
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 155
+  fields:
+    name: 217-15
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 156
+  fields:
+    name: 217-16
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 157
+  fields:
+    name: 217-17
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 158
+  fields:
+    name: 217-18
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 159
+  fields:
+    name: 217-19
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 160
+  fields:
+    name: 217-2
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 161
+  fields:
+    name: 217-20
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 162
+  fields:
+    name: 217-3
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 163
+  fields:
+    name: 217-4
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 164
+  fields:
+    name: 217-5
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 165
+  fields:
+    name: 217-6
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 166
+  fields:
+    name: 217-7
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 167
+  fields:
+    name: 217-8
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 168
+  fields:
+    name: 217-9
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 169
+  fields:
+    name: 218
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 170
+  fields:
+    name: 219
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 171
+  fields:
+    name: 220
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 172
+  fields:
+    name: 221
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 173
+  fields:
+    name: 222
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 174
+  fields:
+    name: 223
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 175
+  fields:
+    name: 224
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 176
+  fields:
+    name: 225
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 177
+  fields:
+    name: 226
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 178
+  fields:
+    name: 227
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 179
+  fields:
+    name: 228
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 180
+  fields:
+    name: 229
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 181
+  fields:
+    name: 230
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 182
+  fields:
+    name: 231
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 183
+  fields:
+    name: 232
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 184
+  fields:
+    name: 233
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 185
+  fields:
+    name: 234
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 186
+  fields:
+    name: 235
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 187
+  fields:
+    name: 236
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 188
+  fields:
+    name: 237
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 189
+  fields:
+    name: 238
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 190
+  fields:
+    name: 239
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 191
+  fields:
+    name: 240
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 192
+  fields:
+    name: 241
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 193
+  fields:
+    name: 242
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 194
+  fields:
+    name: 243
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 195
+  fields:
+    name: 243-1
+    building: 3
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 196
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E21\u0E32\u0E04\u0E21\u0E28\u0E34\u0E29\u0E22\u0E4C\u0E40\u0E01\u0E48\u0E32"
+    building: 3
+    level: 0
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 197
+  fields:
+    name: 101
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 198
+  fields:
+    name: 101-1
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 199
+  fields:
+    name: 102
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 200
+  fields:
+    name: 103
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 201
+  fields:
+    name: 104
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 202
+  fields:
+    name: 105
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 203
+  fields:
+    name: 106
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 204
+  fields:
+    name: 106-1
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 205
+  fields:
+    name: 106-2
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 206
+  fields:
+    name: 106-3
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 207
+  fields:
+    name: 107
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 208
+  fields:
+    name: 108
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 209
+  fields:
+    name: 109
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 210
+  fields:
+    name: 110
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 211
+  fields:
+    name: 111
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 212
+  fields:
+    name: 112
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 213
+  fields:
+    name: 113
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 214
+  fields:
+    name: 114
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 215
+  fields:
+    name: 115
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 216
+  fields:
+    name: 115-1
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 217
+  fields:
+    name: 120
+    building: 4
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 218
+  fields:
+    name: 201
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 219
+  fields:
+    name: 201-1
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 220
+  fields:
+    name: 201-2
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 221
+  fields:
+    name: 202
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 222
+  fields:
+    name: 202-1
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 223
+  fields:
+    name: 202-2
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 224
+  fields:
+    name: 202-3
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 225
+  fields:
+    name: 203
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 226
+  fields:
+    name: 204
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 227
+  fields:
+    name: 205
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 228
+  fields:
+    name: 206
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 229
+  fields:
+    name: 207
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 230
+  fields:
+    name: 208
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 231
+  fields:
+    name: 209
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 232
+  fields:
+    name: 210
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 233
+  fields:
+    name: 211
+    building: 4
+    level: 2
+    caretaker: 52
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 234
+  fields:
+    name: 212
+    building: 4
+    level: 2
+    caretaker: 52
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 235
+  fields:
+    name: 213
+    building: 4
+    level: 2
+    caretaker: 52
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 236
+  fields:
+    name: 214
+    building: 4
+    level: 2
+    caretaker: 52
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 237
+  fields:
+    name: 215
+    building: 4
+    level: 2
+    caretaker: 52
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 238
+  fields:
+    name: 219
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 239
+  fields:
+    name: 220
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 240
+  fields:
+    name: 221
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 241
+  fields:
+    name: 222
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 242
+  fields:
+    name: 223
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 243
+  fields:
+    name: 224
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 244
+  fields:
+    name: 225
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 245
+  fields:
+    name: 226
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 246
+  fields:
+    name: 227
+    building: 4
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 247
+  fields:
+    name: 301
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 248
+  fields:
+    name: 301-1
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 249
+  fields:
+    name: 301-2
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 250
+  fields:
+    name: 302
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 251
+  fields:
+    name: 303
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 252
+  fields:
+    name: 303-1
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 253
+  fields:
+    name: 303-2
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 254
+  fields:
+    name: 304
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 255
+  fields:
+    name: 305
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 256
+  fields:
+    name: 305-1
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 257
+  fields:
+    name: 305-2
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 258
+  fields:
+    name: 306
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 259
+  fields:
+    name: 307
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 260
+  fields:
+    name: 308
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 261
+  fields:
+    name: 309
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 262
+  fields:
+    name: 310
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 263
+  fields:
+    name: 311
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 264
+  fields:
+    name: 312
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 265
+  fields:
+    name: 313
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 266
+  fields:
+    name: 314
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 267
+  fields:
+    name: 318
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 268
+  fields:
+    name: 319
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 269
+  fields:
+    name: 320
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 270
+  fields:
+    name: 321
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 271
+  fields:
+    name: 322
+    building: 4
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 272
+  fields:
+    name: 401
+    building: 4
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 273
+  fields:
+    name: 406
+    building: 4
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 274
+  fields:
+    name: 407
+    building: 4
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 275
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E31\u0E19\u0E17\u0E19\u0E32\u0E01\u0E32\u0E23"
+    building: 4
+    level: 0
+    caretaker: 
+    room_type: Oth
+- model: sci_dashboard_app.room
+  pk: 276
+  fields:
+    name: A101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 277
+  fields:
+    name: A101-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 278
+  fields:
+    name: A101-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 279
+  fields:
+    name: A201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 280
+  fields:
+    name: A201-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 281
+  fields:
+    name: A202
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 282
+  fields:
+    name: A202-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 283
+  fields:
+    name: A301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 284
+  fields:
+    name: A302
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 285
+  fields:
+    name: A401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 286
+  fields:
+    name: A401-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 287
+  fields:
+    name: A401-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 288
+  fields:
+    name: A402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 289
+  fields:
+    name: A403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 290
+  fields:
+    name: A404
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 291
+  fields:
+    name: A404-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 292
+  fields:
+    name: A404-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 293
+  fields:
+    name: A404-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 294
+  fields:
+    name: A404-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 295
+  fields:
+    name: A404-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 296
+  fields:
+    name: A404-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 297
+  fields:
+    name: A404-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 298
+  fields:
+    name: A405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 299
+  fields:
+    name: A405-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 300
+  fields:
+    name: A405-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 301
+  fields:
+    name: A405-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 302
+  fields:
+    name: A405-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 302
+  fields:
+    name: A405-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 303
+  fields:
+    name: A405-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 304
+  fields:
+    name: A405-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 305
+  fields:
+    name: A406
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 306
+  fields:
+    name: A407
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 307
+  fields:
+    name: A407-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 308
+  fields:
+    name: A407-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 309
+  fields:
+    name: A408
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 310
+  fields:
+    name: A408-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 311
+  fields:
+    name: A408-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 312
+  fields:
+    name: A501
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 313
+  fields:
+    name: A501-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 314
+  fields:
+    name: A502
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 315
+  fields:
+    name: A502-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 316
+  fields:
+    name: A503
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 317
+  fields:
+    name: A503-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 318
+  fields:
+    name: A504
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 319
+  fields:
+    name: A504-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 320
+  fields:
+    name: A504-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 321
+  fields:
+    name: B101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 322
+  fields:
+    name: B101-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 323
+  fields:
+    name: B102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 324
+  fields:
+    name: B102-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 325
+  fields:
+    name: B103
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 326
+  fields:
+    name: B103-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 327
+  fields:
+    name: B103-10
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 328
+  fields:
+    name: B103-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 329
+  fields:
+    name: B103-3
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 330
+  fields:
+    name: B103-4
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 331
+  fields:
+    name: B103-5
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 332
+  fields:
+    name: B103-6
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 333
+  fields:
+    name: B103-7
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 334
+  fields:
+    name: B103-8
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 335
+  fields:
+    name: B103-9
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 336
+  fields:
+    name: B104
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 337
+  fields:
+    name: B105
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 338
+  fields:
+    name: B106
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 339
+  fields:
+    name: B201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 340
+  fields:
+    name: B201-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 341
+  fields:
+    name: B202
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 342
+  fields:
+    name: B202-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 343
+  fields:
+    name: B202-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 344
+  fields:
+    name: B202-3
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 345
+  fields:
+    name: B202-4
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 346
+  fields:
+    name: B202-5
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 347
+  fields:
+    name: B202-6
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 348
+  fields:
+    name: B202-7
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 349
+  fields:
+    name: B202-8
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 350
+  fields:
+    name: B202-9
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 351
+  fields:
+    name: B203
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 352
+  fields:
+    name: B204
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 353
+  fields:
+    name: B205
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 354
+  fields:
+    name: B206
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 355
+  fields:
+    name: B207
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 356
+  fields:
+    name: B401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 357
+  fields:
+    name: B401-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 358
+  fields:
+    name: B401-10
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 359
+  fields:
+    name: B401-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 360
+  fields:
+    name: B401-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 361
+  fields:
+    name: B401-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 362
+  fields:
+    name: B401-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 363
+  fields:
+    name: B401-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 364
+  fields:
+    name: B401-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 365
+  fields:
+    name: B401-8
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 366
+  fields:
+    name: B401-9
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 367
+  fields:
+    name: B402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 368
+  fields:
+    name: B402-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 369
+  fields:
+    name: B402-10
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 370
+  fields:
+    name: B402-11
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 371
+  fields:
+    name: B402-12
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 372
+  fields:
+    name: B402-13
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 373
+  fields:
+    name: B402-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 374
+  fields:
+    name: B402-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 375
+  fields:
+    name: B402-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 376
+  fields:
+    name: B402-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 377
+  fields:
+    name: B402-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 378
+  fields:
+    name: B402-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 379
+  fields:
+    name: B402-8
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 380
+  fields:
+    name: B402-9
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 381
+  fields:
+    name: B403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 382
+  fields:
+    name: B403-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 383
+  fields:
+    name: B403-10
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 384
+  fields:
+    name: B403-11
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 385
+  fields:
+    name: B403-12
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 386
+  fields:
+    name: B403-13
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 387
+  fields:
+    name: B403-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 388
+  fields:
+    name: B403-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 389
+  fields:
+    name: B403-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 390
+  fields:
+    name: B403-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 391
+  fields:
+    name: B403-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 392
+  fields:
+    name: B403-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 393
+  fields:
+    name: B403-8
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 394
+  fields:
+    name: B403-9
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 395
+  fields:
+    name: B404-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 396
+  fields:
+    name: B404-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 397
+  fields:
+    name: B404-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 398
+  fields:
+    name: B404-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 399
+  fields:
+    name: B404-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 400
+  fields:
+    name: B404-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 401
+  fields:
+    name: B404-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 402
+  fields:
+    name: B404-8
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 403
+  fields:
+    name: B405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 404
+  fields:
+    name: B405-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 405
+  fields:
+    name: B405-10
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 406
+  fields:
+    name: B405-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 407
+  fields:
+    name: B405-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 408
+  fields:
+    name: B405-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 409
+  fields:
+    name: B405-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 410
+  fields:
+    name: B405-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 411
+  fields:
+    name: B405-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 412
+  fields:
+    name: B405-8
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 413
+  fields:
+    name: B405-9
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 414
+  fields:
+    name: B406
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 415
+  fields:
+    name: B407
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 416
+  fields:
+    name: B407-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 417
+  fields:
+    name: B407-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 418
+  fields:
+    name: B407-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 419
+  fields:
+    name: B408
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 420
+  fields:
+    name: B408-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 421
+  fields:
+    name: B408-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 422
+  fields:
+    name: B408-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 423
+  fields:
+    name: B408-4
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 424
+  fields:
+    name: B408-5
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 425
+  fields:
+    name: B408-6
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 426
+  fields:
+    name: B408-7
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 427
+  fields:
+    name: B501
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 428
+  fields:
+    name: B501-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 429
+  fields:
+    name: B501-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 430
+  fields:
+    name: B502
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 431
+  fields:
+    name: B502-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 432
+  fields:
+    name: B502-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 433
+  fields:
+    name: B503
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 434
+  fields:
+    name: B503-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 435
+  fields:
+    name: B503-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 436
+  fields:
+    name: B503-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 437
+  fields:
+    name: B503-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 438
+  fields:
+    name: B503-5
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 439
+  fields:
+    name: B503-6
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 440
+  fields:
+    name: B504
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 441
+  fields:
+    name: B505-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 442
+  fields:
+    name: B505-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 443
+  fields:
+    name: B505-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 444
+  fields:
+    name: B505-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 445
+  fields:
+    name: B505-5
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 446
+  fields:
+    name: B505-6
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 447
+  fields:
+    name: B505-7
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 448
+  fields:
+    name: B505-8
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 449
+  fields:
+    name: B506
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 450
+  fields:
+    name: B506-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 451
+  fields:
+    name: B506-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 452
+  fields:
+    name: B506-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 453
+  fields:
+    name: B506-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 454
+  fields:
+    name: B507
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 455
+  fields:
+    name: B507-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 456
+  fields:
+    name: B507-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 457
+  fields:
+    name: B507-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 458
+  fields:
+    name: B507-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 459
+  fields:
+    name: B508
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 460
+  fields:
+    name: B508-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 461
+  fields:
+    name: B508-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 462
+  fields:
+    name: B508-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 463
+  fields:
+    name: B508-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 464
+  fields:
+    name: B509
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 465
+  fields:
+    name: B509-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 466
+  fields:
+    name: B509-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 467
+  fields:
+    name: B510
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 468
+  fields:
+    name: B510-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 469
+  fields:
+    name: B510-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 470
+  fields:
+    name: B511
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 471
+  fields:
+    name: B511-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 472
+  fields:
+    name: B511-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 473
+  fields:
+    name: B512
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 474
+  fields:
+    name: B512-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 475
+  fields:
+    name: B512-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 476
+  fields:
+    name: B512-3
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 477
+  fields:
+    name: B512-4
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 478
+  fields:
+    name: B512-5
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 479
+  fields:
+    name: B512-6
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 480
+  fields:
+    name: B512-7
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 481
+  fields:
+    name: B512-8
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 482
+  fields:
+    name: B512-9
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 483
+  fields:
+    name: B513
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 484
+  fields:
+    name: B513-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 485
+  fields:
+    name: B513-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 496
+  fields:
+    name: B514
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 497
+  fields:
+    name: B514-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 498
+  fields:
+    name: B514-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 499
+  fields:
+    name: C101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 500
+  fields:
+    name: C101-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 501
+  fields:
+    name: C102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 502
+  fields:
+    name: C103
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 503
+  fields:
+    name: C104
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 504
+  fields:
+    name: C105-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 505
+  fields:
+    name: C105-10
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 506
+  fields:
+    name: C105-11
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 507
+  fields:
+    name: C105-12
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 508
+  fields:
+    name: C105-13
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 509
+  fields:
+    name: C105-14
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 510
+  fields:
+    name: C105-15
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 511
+  fields:
+    name: C105-16
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 512
+  fields:
+    name: C105-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 513
+  fields:
+    name: C105-3
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 514
+  fields:
+    name: C105-4
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 515
+  fields:
+    name: C105-5
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 516
+  fields:
+    name: C105-6
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 517
+  fields:
+    name: C105-7
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 518
+  fields:
+    name: C105-8
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 519
+  fields:
+    name: C105-9
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 520
+  fields:
+    name: C106
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 521
+  fields:
+    name: C106-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 522
+  fields:
+    name: C106-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 523
+  fields:
+    name: C106-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 524
+  fields:
+    name: C106-3
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 525
+  fields:
+    name: C106-4
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 526
+  fields:
+    name: C107
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 527
+  fields:
+    name: C107-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 528
+  fields:
+    name: C107-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 529
+  fields:
+    name: C107-3
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 530
+  fields:
+    name: C107-4
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 531
+  fields:
+    name: C108
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 532
+  fields:
+    name: C108-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 533
+  fields:
+    name: C108-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 534
+  fields:
+    name: C109
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 535
+  fields:
+    name: C109-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 536
+  fields:
+    name: C109-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 537
+  fields:
+    name: C201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 538
+  fields:
+    name: C201-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 539
+  fields:
+    name: C201-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 540
+  fields:
+    name: C202
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 541
+  fields:
+    name: C202-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 542
+  fields:
+    name: C202-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 543
+  fields:
+    name: C203
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 544
+  fields:
+    name: C203-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 545
+  fields:
+    name: C203-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 546
+  fields:
+    name: C203-4
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 547
+  fields:
+    name: C204
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 548
+  fields:
+    name: C204-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 549
+  fields:
+    name: C204-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 550
+  fields:
+    name: C204-3
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 551
+  fields:
+    name: C204-4
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 552
+  fields:
+    name: C205
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 553
+  fields:
+    name: C205-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 554
+  fields:
+    name: C205-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 555
+  fields:
+    name: C206
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 556
+  fields:
+    name: C206-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 557
+  fields:
+    name: C206-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 558
+  fields:
+    name: C207
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 559
+  fields:
+    name: C207-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 560
+  fields:
+    name: C207-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 561
+  fields:
+    name: C301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 562
+  fields:
+    name: C301-1
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 563
+  fields:
+    name: C301-10
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 564
+  fields:
+    name: C301-11
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 565
+  fields:
+    name: C301-12
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 566
+  fields:
+    name: C301-13
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 567
+  fields:
+    name: C301-14
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 568
+  fields:
+    name: C301-2
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 569
+  fields:
+    name: C301-3
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 570
+  fields:
+    name: C301-4
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 571
+  fields:
+    name: C301-5
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 572
+  fields:
+    name: C301-6
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 573
+  fields:
+    name: C301-7
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 574
+  fields:
+    name: C301-8
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 575
+  fields:
+    name: C301-9
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 576
+  fields:
+    name: C401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 577
+  fields:
+    name: C401-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 578
+  fields:
+    name: C401-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 579
+  fields:
+    name: C402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 580
+  fields:
+    name: C402-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 581
+  fields:
+    name: C403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 582
+  fields:
+    name: C403-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 583
+  fields:
+    name: C404
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 584
+  fields:
+    name: C404-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 585
+  fields:
+    name: C404-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 586
+  fields:
+    name: C405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 587
+  fields:
+    name: C406
+    building: 5
+    level: 4
+    caretaker: 49
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 588
+  fields:
+    name: C406-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 589
+  fields:
+    name: C406-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 590
+  fields:
+    name: C407
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 591
+  fields:
+    name: C408
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 592
+  fields:
+    name: C409
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 593
+  fields:
+    name: C410
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 594
+  fields:
+    name: C411
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 595
+  fields:
+    name: C411-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 596
+  fields:
+    name: C411-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 597
+  fields:
+    name: C501
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 598
+  fields:
+    name: C502
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 599
+  fields:
+    name: C502-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 600
+  fields:
+    name: C502-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 601
+  fields:
+    name: C503
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 602
+  fields:
+    name: C504
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 603
+  fields:
+    name: C505
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 604
+  fields:
+    name: C506
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 605
+  fields:
+    name: C506-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 606
+  fields:
+    name: C506-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 607
+  fields:
+    name: C507
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 608
+  fields:
+    name: C507-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 609
+  fields:
+    name: C507-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 610
+  fields:
+    name: C508
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 611
+  fields:
+    name: C508-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 612
+  fields:
+    name: C508-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 613
+  fields:
+    name: C509
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 614
+  fields:
+    name: C509-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 615
+  fields:
+    name: C509-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 616
+  fields:
+    name: C510
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 617
+  fields:
+    name: C510-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 618
+  fields:
+    name: C510-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 619
+  fields:
+    name: EU101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 620
+  fields:
+    name: EU102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 621
+  fields:
+    name: EU103
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 622
+  fields:
+    name: EU104
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 623
+  fields:
+    name: EU105
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 624
+  fields:
+    name: EU106
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 625
+  fields:
+    name: EU107
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 626
+  fields:
+    name: EU108
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 627
+  fields:
+    name: EU109
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 628
+  fields:
+    name: EU201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 629
+  fields:
+    name: EU202
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 630
+  fields:
+    name: EU203
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 631
+  fields:
+    name: EU204
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 632
+  fields:
+    name: EU205
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 633
+  fields:
+    name: EU206
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 634
+  fields:
+    name: EU207
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 635
+  fields:
+    name: EU208
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 636
+  fields:
+    name: EU301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 637
+  fields:
+    name: EU301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 638
+  fields:
+    name: EU302
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 639
+  fields:
+    name: EU303
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 640
+  fields:
+    name: EU304
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 641
+  fields:
+    name: EU305
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 642
+  fields:
+    name: EU307
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 643
+  fields:
+    name: EU401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 644
+  fields:
+    name: EU401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 645
+  fields:
+    name: EU402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 646
+  fields:
+    name: EU403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 647
+  fields:
+    name: EU404
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 648
+  fields:
+    name: EU405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 649
+  fields:
+    name: EU406-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 650
+  fields:
+    name: EU406-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 651
+  fields:
+    name: EU501
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 652
+  fields:
+    name: EU502
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 653
+  fields:
+    name: EU503
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 654
+  fields:
+    name: EU504
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 655
+  fields:
+    name: EU505
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 656
+  fields:
+    name: EU506-1
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 657
+  fields:
+    name: EU506-2
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 658
+  fields:
+    name: F101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 659
+  fields:
+    name: F101-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 660
+  fields:
+    name: F101-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 661
+  fields:
+    name: F102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 662
+  fields:
+    name: F103
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 663
+  fields:
+    name: F103-1
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 664
+  fields:
+    name: F103-2
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 665
+  fields:
+    name: F104
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 666
+  fields:
+    name: F201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 667
+  fields:
+    name: F201-1
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 668
+  fields:
+    name: F201-2
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 669
+  fields:
+    name: F201-3
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 670
+  fields:
+    name: F201-4
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 671
+  fields:
+    name: F301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 672
+  fields:
+    name: F401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 673
+  fields:
+    name: F401-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 674
+  fields:
+    name: F401-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 675
+  fields:
+    name: F401-3
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 676
+  fields:
+    name: F402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 677
+  fields:
+    name: F402-1
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 678
+  fields:
+    name: F402-2
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 679
+  fields:
+    name: F403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 680
+  fields:
+    name: F404
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 681
+  fields:
+    name: F405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 682
+  fields:
+    name: F406
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 683
+  fields:
+    name: M301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 684
+  fields:
+    name: M302
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 685
+  fields:
+    name: M303
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 686
+  fields:
+    name: M304
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 687
+  fields:
+    name: M306
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 688
+  fields:
+    name: M307
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 689
+  fields:
+    name: NU101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 690
+  fields:
+    name: NU102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 691
+  fields:
+    name: NU103
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 692
+  fields:
+    name: NU104
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 693
+  fields:
+    name: NU105
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 694
+  fields:
+    name: NU106
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 695
+  fields:
+    name: NU201
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 696
+  fields:
+    name: NU202
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 697
+  fields:
+    name: NU203
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 698
+  fields:
+    name: NU204
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 699
+  fields:
+    name: NU205
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 700
+  fields:
+    name: NU206
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 701
+  fields:
+    name: NU301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 702
+  fields:
+    name: NU302
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 703
+  fields:
+    name: NU303
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 704
+  fields:
+    name: NU304
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 705
+  fields:
+    name: NU305
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 706
+  fields:
+    name: NU306
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 707
+  fields:
+    name: NU401
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 708
+  fields:
+    name: NU402
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 709
+  fields:
+    name: NU403
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 710
+  fields:
+    name: NU404
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 711
+  fields:
+    name: NU405
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 712
+  fields:
+    name: NU406
+    building: 5
+    level: 4
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 713
+  fields:
+    name: NU501
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 714
+  fields:
+    name: NU502
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 715
+  fields:
+    name: NU503
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 716
+  fields:
+    name: NU504
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 717
+  fields:
+    name: NU505
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 718
+  fields:
+    name: NU506
+    building: 5
+    level: 5
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 719
+  fields:
+    name: R301
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 720
+  fields:
+    name: R301-1
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 721
+  fields:
+    name: R301-2
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 722
+  fields:
+    name: R302
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 723
+  fields:
+    name: R303
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 724
+  fields:
+    name: R303-1
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 725
+  fields:
+    name: R303-2
+    building: 5
+    level: 3
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 726
+  fields:
+    name: S101
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 727
+  fields:
+    name: S102
+    building: 5
+    level: 1
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 728
+  fields:
+    name: S103
+    building: 5
+    level: 1
+    caretaker: 17 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 729
+  fields:
+    name: S104
+    building: 5
+    level: 1
+    caretaker:  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 730
+  fields:
+    name: S105
+    building: 5
+    level: 1
+    caretaker:  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 731
+  fields:
+    name: S106
+    building: 5
+    level: 1
+    caretaker: 29 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 732
+  fields:
+    name: S201
+    building: 5
+    level: 2
+    caretaker: 26  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 733
+  fields:
+    name: S202
+    building: 5
+    level: 2
+    caretaker: 26  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 734
+  fields:
+    name: S203
+    building: 5
+    level: 2
+    caretaker: 26  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 735
+  fields:
+    name: S204
+    building: 5
+    level: 2
+    caretaker: 26  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 736
+  fields:
+    name: S205
+    building: 5
+    level: 2
+    caretaker:  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 737
+  fields:
+    name: S206
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 738
+  fields:
+    name: S207
+    building: 5
+    level: 2
+    caretaker: 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 739
+  fields:
+    name: S208
+    building: 5
+    level: 2
+    caretaker: 26  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 740
+  fields:
+    name: S209
+    building: 5
+    level: 2
+    caretaker: 19 
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 741
+  fields:
+    name: S210
+    building: 5
+    level: 2
+    caretaker: 19  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 742
+  fields:
+    name: S211
+    building: 5
+    level: 2
+    caretaker: 19  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 743
+  fields:
+    name: S212
+    building: 5
+    level: 2
+    caretaker: 19  
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 744
+  fields:
+    name: S301
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 745
+  fields:
+    name: S302
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 746
+  fields:
+    name: S303
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 747
+  fields:
+    name: S304
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 748
+  fields:
+    name: S305
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 749
+  fields:
+    name: S306
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 750
+  fields:
+    name: S306-1
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 751
+  fields:
+    name: S307
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 752
+  fields:
+    name: S308
+    building: 5
+    level: 3
+    caretaker: 17
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 753
+  fields:
+    name: S308-1
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 754
+  fields:
+    name: S309
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 755
+  fields:
+    name: S310
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 756
+  fields:
+    name: S311
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 757
+  fields:
+    name: S312
+    building: 5
+    level: 3
+    caretaker: 17
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 758
+  fields:
+    name: S313
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 759
+  fields:
+    name: S314
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 760
+  fields:
+    name: S315
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 761
+  fields:
+    name: SU101
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 762
+  fields:
+    name: SU102
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 763
+  fields:
+    name: SU103
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 764
+  fields:
+    name: SU104
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 765
+  fields:
+    name: SU105
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 766
+  fields:
+    name: SU106
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 767
+  fields:
+    name: SU201
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 768
+  fields:
+    name: SU202
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 769
+  fields:
+    name: SU203
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 770
+  fields:
+    name: SU204
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 771
+  fields:
+    name: SU205
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 772
+  fields:
+    name: SU206
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 773
+  fields:
+    name: SU301
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 774
+  fields:
+    name: SU302
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 775
+  fields:
+    name: SU303
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 776
+  fields:
+    name: SU304
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 777
+  fields:
+    name: SU305
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 778
+  fields:
+    name: SU306
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 779
+  fields:
+    name: SU401
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 780
+  fields:
+    name: SU402
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 781
+  fields:
+    name: SU403
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 782
+  fields:
+    name: SU404
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 783
+  fields:
+    name: SU405
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 784
+  fields:
+    name: SU406
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 785
+  fields:
+    name: SU501
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 786
+  fields:
+    name: SU502
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 787
+  fields:
+    name: SU503
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 788
+  fields:
+    name: SU504
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 789
+  fields:
+    name: SU505
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 790
+  fields:
+    name: SU506
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 791
+  fields:
+    name: U111
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 792
+  fields:
+    name: WU101
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 793
+  fields:
+    name: WU102
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 794
+  fields:
+    name: WU103
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 795
+  fields:
+    name: WU104
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 796
+  fields:
+    name: WU105
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 797
+  fields:
+    name: WU110
+    building: 5
+    level: 1
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 798
+  fields:
+    name: WU201
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 799
+  fields:
+    name: WU202
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 800
+  fields:
+    name: WU203
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 801
+  fields:
+    name: WU204
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 802
+  fields:
+    name: WU205
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 803
+  fields:
+    name: WU207
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 804
+  fields:
+    name: WU208
+    building: 5
+    level: 2
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 805
+  fields:
+    name: WU301
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 806
+  fields:
+    name: WU302
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 807
+  fields:
+    name: WU303
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 808
+  fields:
+    name: WU304
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 809
+  fields:
+    name: WU305
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 810
+  fields:
+    name: WU307
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 811
+  fields:
+    name: WU308
+    building: 5
+    level: 3
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 812
+  fields:
+    name: WU401
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 813
+  fields:
+    name: WU402
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 814
+  fields:
+    name: WU403
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 815
+  fields:
+    name: WU404
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 816
+  fields:
+    name: WU406-1
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 817
+  fields:
+    name: WU406-2
+    building: 5
+    level: 4
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 818
+  fields:
+    name: WU501
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 819
+  fields:
+    name: WU502
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 820
+  fields:
+    name: WU503
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 821
+  fields:
+    name: WU504
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 822
+  fields:
+    name: WU505
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 823
+  fields:
+    name: WU506-1
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 824
+  fields:
+    name: WU506-2
+    building: 5
+    level: 5
+    caretaker:
+    room_type: Cr
+- model: sci_dashboard_app.room
+  pk: 825
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E31\u0E21\u0E19\u0E32\u0E1A\u0E31\u0E13\u0E11\u0E34\u0E15"
+    building: 5
+    level: 0
+    caretaker:
+    room_type: Mr
+- model: sci_dashboard_app.room
+  pk: 826
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E31\u0E21\u0E19\u0E32\u0E1A\u0E31\u0E13\u0E11\u0E34\u0E15"
+    building: 5
+    level: 0
+    caretaker:
+    room_type: Mr
+- model: sci_dashboard_app.room
+  pk: 827
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E31\u0E21\u0E19\u0E32\u0E1A\u0E31\u0E13\u0E11\u0E34\u0E15"
+    building: 5
+    level: 0
+    caretaker:
+    room_type: Mr
+- model: sci_dashboard_app.room
+  pk: 828
+  fields:
+    name: "\u0E2B\u0E49\u0E2D\u0E07\u0E2A\u0E31\u0E21\u0E19\u0E32\u0E1A\u0E31\u0E13\u0E11\u0E34\u0E15"
+    building: 5
+    level: 0
+    caretaker:
+    room_type: Mr

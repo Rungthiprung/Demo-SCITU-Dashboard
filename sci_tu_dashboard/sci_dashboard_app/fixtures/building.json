@@ -1,0 +1,34 @@
+[
+    {
+        "model": "sci_dashboard_app.building",
+        "pk": 2,
+        "fields": {
+            "shortname" : "LC2",
+            "fullname" : "อาคารบรรยายรวม 2"
+        }
+      },
+      {
+        "model": "sci_dashboard_app.building",
+        "pk": 3,
+        "fields": {
+            "shortname" : "LC3",
+            "fullname" : "อาคารบรรยายรวม 3"
+        }
+      },
+      {
+        "model": "sci_dashboard_app.building",
+        "pk": 4,
+        "fields": {
+            "shortname" : "LC4",
+            "fullname" : "อาคารบรรยายรวม 4"
+        }
+      },
+      {
+        "model": "sci_dashboard_app.building",
+        "pk": 5,
+        "fields": {
+            "shortname" : "LC5",
+            "fullname" : "อาคารบรรยายรวม 5"
+        }
+      }
+  ]

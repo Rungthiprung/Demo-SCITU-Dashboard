@@ -1,0 +1,469 @@
+{% extends "base.html" %} 
+{% block title %}Dashboard{% endblock %} 
+{% block stylesheets %}
+{% endblock stylesheets %} 
+{% block content %}
+
+<div class="content">
+  <div class="panel-header bg-info-gradient">
+    <div class="page-inner py-5">
+      <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
+          <div>
+              <h1 class="text-white pb-2 fw-bold">Dashboard</h1>
+              <h3 class="text-white op-7 mb-2">SCI-TU report dashboard and management</h3>
+              <h5 class="text-white op-7 mb-2 ">โปรดระบุช่วงเวลาสำหรับแสดงข้อมูล</h5>
+              <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc;">
+              <i class="fa fa-calendar"></i>  
+              <span id="date"></span><i class="fa fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-inner mt--5">
+    <div class="row mt--2">
+      <div class="col-md-12">
+        <div class="card full-height">
+          <div class="card-body">
+            <div class="card-title">ภาพรวม</div>
+            <div class="card-category">ปัญหาที่เกิดขึ้นภายในบริเวณคณะวิทยาศาสตร์และเทคโนโลยี</div>
+            <div class="d-flex flex-wrap justify-content-around pb-2 pt-4">
+              <div class="px-2 pb-4 pb-md-0 text-center">
+                <div id="circles-1"></div>
+                <h6 class="fw-bold mt-3 mb-0">
+                  <i class="fa fa-flag text-danger"></i> เริ่มต้น</h6>
+              </div>
+              <div class="px-2 pb-2 pb-md-0 text-center">
+                <div id="circles-2"></div>
+                <h6 class="fw-bold mt-3 mb-0">
+                  <i class="fa fa-archive text-info"></i> รับเรื่องเรียบร้อย</h6>
+              </div>
+              <div class="px-2 pb-3 pb-md-0 text-center">
+                <div id="circles-3"></div>
+                <h6 class="fw-bold mt-3 mb-0">
+                  <i class="fa fa-spinner text-warning"></i> อยู่ระหว่างดำเนินการ</h6>
+              </div>
+              <div class="px-2 pb-4 pb-md-0 text-center">
+                <div id="circles-4"></div>
+                <h6 class="fw-bold mt-3 mb-0">
+                  <i class="fa fa-check-circle text-success"></i> เสร็จสิ้น</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+						<div class="card-body pb-0">
+							<div class="h1 fw-bold float-right text-warning">{{ countReport }}</div>
+							<h2 class="mb-2">ปัญหาที่เกิดขึ้นทั้งหมด</h2>
+							<p class="text-muted">รายการ</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">กราฟแสดงปัญหาแยกตามอาคาร</div>
+							<div class="card-category">คิดเป็นร้อยละ</div>
+						</div>
+						<div class="card-body pb-0">
+								<canvas id="doughnutChart"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-head-row">
+								<div class="card-title">กราฟแสดงสถานะของปัญหาแยกตามอาคาร</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="chart-container" style="min-height: 435px">
+                <canvas id="stackbarChart1"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-head-row">
+              <div class="card-title">กราฟแสดงสถานะของปัญหาแยกตามประเภท</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container" style="min-height: 375px">
+              <canvas id="stackbarChart2"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock %} {% block javascripts %}
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.0/dist/patternomaly.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  
+  
+  <script type="text/javascript">
+    var startdate;
+    var enddate;
+        $('#reportrange').daterangepicker({
+            startDate: moment().subtract(29,'days'),
+            endDate: moment(),
+            ranges: {
+               'Today': [moment(), moment()],
+               'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+               'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+               'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+               'Last 6 Month': [moment().subtract(6, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+			         'Last 12 Month': [moment().subtract(12, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+            }
+        }, function(start, end){
+          $('#date').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+            console.log("Callback has been called!");
+              var url = new URL(document.location.href);
+              var search_params = url.searchParams;
+              search_params.set('start_date', start.format('YYYY-MM-DD'));
+              search_params.set('end_date', end.format('YYYY-MM-DD'));
+              url.search = search_params.toString();
+              var new_url = url.toString();
+              //alert(new_url);
+              window.location.replace(new_url);
+              $('#date').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        });
+        //alert(document.location.href);
+        let params = (new URL(document.location.href)).searchParams;
+        let start = new Date(params.get('start_date'));
+        let end = new Date(params.get('end_date'));
+        
+       $('#date').html( start.toLocaleDateString('en-us', { year:"numeric", month:"long", day: "numeric"}) + ' - ' 
+                    + end.toLocaleDateString('en-us', { year:"numeric", month:"long", day: "numeric"}) );
+
+          
+  </script>
+  <script>
+    Circles.create({
+      id: 'circles-1',
+      radius: 45,
+      value: {{ startper }},
+      maxValue: 100,
+      width: 7,
+      text: {{ start }},
+      colors: ['#f1f1f1', '#FF1616'],
+      duration: 400,
+      wrpClass: 'circles-wrp',
+      textClass: 'circles-text',
+      styleWrapper: true,
+      styleText: true
+    })
+
+    Circles.create({
+      id: 'circles-2',
+      radius: 45,
+      value: {{ receivedper }},
+      maxValue: 100,
+      width: 7,
+      text: {{ received }},
+      colors: ['#f1f1f1', '#3697E1'],
+      duration: 400,
+      wrpClass: 'circles-wrp',
+      textClass: 'circles-text',
+      styleWrapper: true,
+      styleText: true
+    })
+
+    Circles.create({
+      id: 'circles-3',
+      radius: 45,
+      value: {{ pendingper }},
+      maxValue: 100,
+      width: 7,
+      text: {{ pending }},
+      colors: ['#f1f1f1', '#FF9E27'],
+      duration: 400,
+      wrpClass: 'circles-wrp',
+      textClass: 'circles-text',
+      styleWrapper: true,
+      styleText: true
+    })
+
+    Circles.create({
+      id: 'circles-4',
+      radius: 45,
+      value: {{ successper }},
+      maxValue: 100,
+      width: 7,
+      text: {{ success }},
+      colors: ['#f1f1f1', '#2BB930'],
+      duration: 400,
+      wrpClass: 'circles-wrp',
+      textClass: 'circles-text',
+      styleWrapper: true,
+      styleText: true
+    })
+
+    Circles.create({
+      id: 'circles-5',
+      radius: 45,
+      value: 100,
+      maxValue: 100,
+      width: 7,
+      text: {{ countReport }},
+      colors: ['#f1f1f1', '#5C55BF'],
+      duration: 400,
+      wrpClass: 'circles-wrp',
+      textClass: 'circles-text',
+      styleWrapper: true,
+      styleText: true
+    })
+  </script>
+  
+  <script>
+      var ctx = document.getElementById("stackbarChart1").getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: {{ labels|safe }},
+        datasets: [{
+          label: 'เริ่มต้น',
+          backgroundColor: [
+              pattern.draw('dash', '#7F58AF'),
+              pattern.draw('dash', '#64C5EB'),
+              pattern.draw('dash', '#E84D8A'),
+              pattern.draw('dash', '#FEB326')
+          ],
+          data: {{ data1|safe }},
+        }, {
+          label: 'รับเรื่องเรียบร้อย',
+          backgroundColor: [
+              pattern.draw('weave', '#7F58AF'),
+              pattern.draw('weave', '#64C5EB'),
+              pattern.draw('weave', '#E84D8A'),
+              pattern.draw('weave', '#FEB326')
+          ],
+          data: {{ data2|safe }},
+        }, {
+          label: 'อยู่ระหว่างดำเนินการ',
+          backgroundColor: [
+              pattern.draw('line-vertical', '#7F58AF'),
+              pattern.draw('line-vertical', '#64C5EB'),
+              pattern.draw('line-vertical', '#E84D8A'),
+              pattern.draw('line-vertical', '#FEB326')
+          ],
+          data: {{ data3|safe }},
+        }, {
+          label: 'เสร็จสิ้น',
+          backgroundColor: [
+              pattern.draw('diagonal-right-left', '#7F58AF'),
+              pattern.draw('diagonal-right-left', '#64C5EB'),
+              pattern.draw('diagonal-right-left', '#E84D8A'),
+              pattern.draw('diagonal-right-left', '#FEB326')
+          ],
+          data: {{ data4|safe }},
+        }],
+      },
+    options: {
+      onClick: function(evt, element){
+        if(element.length > 0){
+          console.log(element[0]._index);
+          var index = element[0]._index+2;
+                    window.location.pathname = 'report/by-location/' + index ;
+          }
+        },
+        tooltips: {
+          displayColors: false,
+          callbacks:{
+            mode: 'x',
+          }
+        },
+        scales: {
+          xAxes: [{
+            stacked: true,
+            gridLines: {
+              display: false,
+            },
+            scaleLabel: {
+            	display: true,
+            	labelString: 'อาคาร'
+          	}
+          }],
+          yAxes: [{
+            stacked: true,
+            ticks: {
+              beginAtZero: true,
+            },
+            type: 'linear',
+            scaleLabel: {
+            	display: true,
+            	labelString: 'จำนวนปัญหา'
+          	}
+          }]
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: { 
+          position: 'bottom',
+          labels: {
+            generateLabels: function(chart) {
+              labels = Chart.defaults.global.legend.labels.generateLabels(chart);
+              labels[0].fillStyle = pattern.draw('dash', '#00000');
+              labels[1].fillStyle = pattern.draw('weave', '#00000');
+              labels[2].fillStyle = pattern.draw('line-vertical', '#00000');
+              labels[3].fillStyle = pattern.draw('diagonal-right-left', '#00000');
+              return labels;
+            }
+          }
+        }
+      }
+    });
+
+    var ctx = document.getElementById("stackbarChart2").getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: {{ labels2|safe }},
+        datasets: [{
+          label: 'เริ่มต้น',
+          backgroundColor: [
+          pattern.draw('dash', '#1a237e'),
+          pattern.draw('dash', '#283593'),
+          pattern.draw('dash', '#2a36b1'),
+          pattern.draw('dash', '#3b50ce'),
+          pattern.draw('dash', '#455ede'),
+          pattern.draw('dash', '#4e6cef'),
+          pattern.draw('dash', '#5677fc'),
+          pattern.draw('dash', '#738ffe'),
+          pattern.draw('dash', '#91a7ff'),
+          pattern.draw('dash', '#afbfff')
+          ],
+          data: {{ data5|safe }},
+        }, {
+          label: 'รับเรื่องเรียบร้อย',
+          backgroundColor: [
+          pattern.draw('weave', '#1a237e'),
+          pattern.draw('weave', '#283593'),
+          pattern.draw('weave', '#2a36b1'),
+          pattern.draw('weave', '#3b50ce'),
+          pattern.draw('weave', '#455ede'),
+          pattern.draw('weave', '#4e6cef'),
+          pattern.draw('weave', '#5677fc'),
+          pattern.draw('weave', '#738ffe'),
+          pattern.draw('weave', '#91a7ff'),
+          pattern.draw('weave', '#afbfff')
+          ],
+          data: {{ data6|safe }},
+        }, {
+          label: 'อยู่ระหว่างดำเนินการ',
+          backgroundColor: [
+          pattern.draw('line-vertical', '#1a237e'),
+          pattern.draw('line-vertical', '#283593'),
+          pattern.draw('line-vertical', '#2a36b1'),
+          pattern.draw('line-vertical', '#3b50ce'),
+          pattern.draw('line-vertical', '#455ede'),
+          pattern.draw('line-vertical', '#4e6cef'),
+          pattern.draw('line-vertical', '#5677fc'),
+          pattern.draw('line-vertical', '#738ffe'),
+          pattern.draw('line-vertical', '#91a7ff'),
+          pattern.draw('line-vertical', '#afbfff')
+          ],
+          data: {{ data7|safe }},
+        }, {
+          label: 'เสร็จสิ้น',
+          backgroundColor: [
+          pattern.draw('diagonal-right-left', '#1a237e'),
+          pattern.draw('diagonal-right-left', '#283593'),
+          pattern.draw('diagonal-right-left', '#2a36b1'),
+          pattern.draw('diagonal-right-left', '#3b50ce'),
+          pattern.draw('diagonal-right-left', '#455ede'),
+          pattern.draw('diagonal-right-left', '#4e6cef'),
+          pattern.draw('diagonal-right-left', '#5677fc'),
+          pattern.draw('diagonal-right-left', '#738ffe'),
+          pattern.draw('diagonal-right-left', '#91a7ff'),
+          pattern.draw('diagonal-right-left', '#afbfff')
+          ],
+          data: {{ data8|safe }},
+        }],
+      },
+    options: {
+        tooltips: {
+          displayColors: false,
+          callbacks:{
+            mode: 'x',
+          }
+        },
+        scales: {
+          xAxes: [{
+            stacked: true,
+            gridLines: {
+              display: false,
+            },
+            scaleLabel: {
+            	display: true,
+            	labelString: 'ประเภทของปัญหา'
+          	}
+          }],
+          yAxes: [{
+            stacked: true,
+            ticks: {
+              beginAtZero: true,
+            },
+            type: 'linear',
+            scaleLabel: {
+            	display: true,
+            	labelString: 'จำนวนปัญหา'
+          	},
+          }]
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+          legend: {
+            position: 'bottom',
+            labels: {
+              generateLabels: function(chart) {
+                labels = Chart.defaults.global.legend.labels.generateLabels(chart);
+                labels[0].fillStyle = pattern.draw('dash', '#00000');
+                labels[1].fillStyle = pattern.draw('weave', '#00000');
+                labels[2].fillStyle = pattern.draw('line-vertical', '#00000');
+                labels[3].fillStyle = pattern.draw('diagonal-right-left', '#00000');
+                return labels;
+              }
+            }
+          }
+      }
+    });
+  </script>
+<script>
+    var ctx = document.getElementById("doughnutChart");
+    var myChart = new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: {{ labels|safe }},
+        datasets: [{
+          label: 'percent',
+          data: {{ perbuilding|safe }},
+          backgroundColor: [
+            '#7F58AF','#64C5EB','#E84D8A','#FEB326'
+          ]
+        }]
+      },
+      options: {
+        responsive: false,
+        legend: { position: 'right' },
+        
+      }
+    });
+  </script>
+
+  {% endblock javascripts %}
+</div>

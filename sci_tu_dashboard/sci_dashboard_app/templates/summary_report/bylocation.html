@@ -1,0 +1,188 @@
+{% extends "base.html" %} 
+{% load static %} 
+{% block title%}ผลการแจ้งปัญหาตามสถานที่{% endblock %} 
+{% block stylesheets %} 
+{% endblock stylesheets %} 
+{% block content %}
+<div class="content">
+  <div class="page-inner">
+    <div class="page-header">
+      <ul class="breadcrumbs">
+        <li class="nav-home">
+          <a href="#">
+            <i class="flaticon-home"></i>
+          </a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">ผลการแจ้งปัญหา</a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'reportbylocation' %}">แสดงตามสถานที่</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+        <svg height="500" width="780" xmlns="http://www.w3.org/2000/svg">
+          <image
+            href="{% static 'assets/img/alllc.png' %}"
+            height="500"
+            width="800"
+          />
+          <a href="{% url 'location' 2 %}">
+            <svg xmlns="http://www.w3.org/2000/svg" x="100">
+              <image
+                href="{% static 'assets/img/pin.png' %}"
+                x="120"
+                y="210"
+                height="30"
+                width="30"
+              />
+            </svg>
+          </a>
+          <a href="{% url 'location' 3 %}">
+            <svg xmlns="http://www.w3.org/2000/svg" x="100">
+              <image
+                href="{% static 'assets/img/pin.png' %}"
+                x="260"
+                y="310"
+                height="30"
+                width="30"
+              />
+            </svg>
+          </a>
+          <a href="{% url 'location' 4 %}">
+            <svg xmlns="http://www.w3.org/2000/svg" x="100">
+              <image
+                href="{% static 'assets/img/pin.png' %}"
+                x="450"
+                y="150"
+                height="30"
+                width="30"
+              />
+            </svg>
+          </a>
+          <a href="{% url 'location' 5 %}">
+            <svg xmlns="http://www.w3.org/2000/svg" x="100">
+              <image
+                href="{% static 'assets/img/pin.png' %}"
+                x="320"
+                y="30"
+                height="30"
+                width="30"
+              />
+            </svg>
+          </a>
+        </svg>
+      </div>
+      <div class="col-md-3">
+        <h4 class="">จำนวนปัญหาในแต่ละอาคาร</h4>
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4">
+                <div class="icon-big text-center">
+                  <i class="flaticon-placeholder text-danger"></i>
+                </div>
+              </div>
+              <div class="col-8 col-stats">
+                <div class="numbers">
+                  <a href="{% url 'location' 2 %}"
+                    ><p class="card-category">อาคารบรรยายรวม 2</p>
+                  </a>
+                  <h4 class="card-title">{{ countLc2 }} รายการ</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4">
+                <div class="icon-big text-center">
+                  <i class="flaticon-placeholder text-danger"></i>
+                </div>
+              </div>
+              <div class="col-8 col-stats">
+                <div class="numbers">
+                <a href="{% url 'location' 3 %}">
+                  <p class="card-category">อาคารบรรยายรวม 3</p>
+                </a>
+                  <h4 class="card-title">{{ countLc3 }} รายการ</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4">
+                <div class="icon-big text-center">
+                  <i class="flaticon-placeholder text-danger"></i>
+                </div>
+              </div>
+              <div class="col-8 col-stats">
+                <div class="numbers">
+                <a href="{% url 'location' 4 %}">
+                  <p class="card-category">อาคารบรรยายรวม 4</p>
+                  </a>
+                  <h4 class="card-title">{{ countLc4 }} รายการ</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4">
+                <div class="icon-big text-center">
+                  <i class="flaticon-placeholder text-danger"></i>
+                </div>
+              </div>
+              <div class="col-8 col-stats">
+                <div class="numbers">
+                <a href="{% url 'location' 5 %}">
+                  <p class="card-category">อาคารบรรยายรวม 5</p>
+                </a>  
+                  <h4 class="card-title">{{ countLc5 }} รายการ</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block javascripts %}
+<script>
+  // if hover -> display txt
+  function displayTxt(evt) {
+    evt.currentTarget.parentNode
+      .querySelector(".innerText")
+      .classList.remove("hide");
+  }
+
+  // if leave -> hide txt
+  function removeTxt(evt) {
+    evt.currentTarget.querySelector(".innerText").classList.add("hide");
+  }
+
+  /* mouseover and mouseout events to `.wrapper` element */
+  var $wrapper = document.querySelector(".wrapper");
+  $wrapper.addEventListener("mouseover", displayTxt);
+  $wrapper.addEventListener("mouseout", removeTxt);
+</script>
+{% endblock javascripts %}

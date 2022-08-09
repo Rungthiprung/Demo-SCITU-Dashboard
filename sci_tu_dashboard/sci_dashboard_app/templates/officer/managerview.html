@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}เจ้าหน้าที่{% endblock %}
+{% block stylesheets %}
+{% endblock stylesheets %}
+{% block content %}
+<div class="content">
+    <div class="page-inner">
+		<div class="page-header">
+            <ul class="breadcrumbs">
+                <li class="nav-home">
+                    <a href="#">
+                        <i class="flaticon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'supervisor' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                    <li class="nav-item">
+                    <a href="{% url 'supervisor' %}">หัวหน้าฝ่ายงาน</a>
+                </li>
+            </ul>
+        </div>    
+        <h4 class="page-title">หัวหน้าฝ่ายงาน(Supervisor)</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card full-height">
+                    <div class="card-header">
+                        <div class="card-head-row">
+                            <div class="card-title">Feed Activity</div>
+                            <div class="card-tools">
+                                <ul class="nav nav-pills nav-secondary nav-pills-no-bd nav-sm" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-today" data-toggle="pill" href="#pills-today" role="tab" aria-selected="true">Today</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="pills-week" data-toggle="pill" href="#pills-week" role="tab" aria-selected="false">Week</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-month" data-toggle="pill" href="#pills-month" role="tab" aria-selected="false">Month</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        {% for a in account %}
+                        {% if a.role == 'Sv' %}
+                        <div class="d-flex">
+                            <div class="avatar avatar-online">
+                                <img src="{% static 'assets/img/avatar.png' %}" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="flex-1 ml-3 pt-1">
+                                <h6 class="text-uppercase fw-bold mb-1">{{ a.firstname }} {{ a.lastname }}<span class="text-warning pl-3">pending</span></h6>
+                                <span class="text-muted">I am facing some trouble with my viewport. When i start my</span>
+                            </div>
+                            <div class="float-right pt-1">
+                                <small class="text-muted">8:40 PM</small>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card full-height">
+                    
+                
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for a in account %}
+            {% if a.role == 'Sv' %}
+            <div class="col-md-3">
+                <a href="{% url 'detailofficer' a.pk %}">
+		        <div class="card card-profile">
+			        <div class="card-header" style="background-image: url('https://appsrv1-147a1.kxcdn.com/atlantis-lite/img/blogpost.jpg')">
+				        <div class="profile-picture">
+					        <div class="avatar avatar-xl">
+                                <img src="{% static 'assets/img/avatar.png' %}" alt="..." class="avatar-img rounded-circle">
+					        </div>
+				        </div>
+			        </div>
+			        <div class="card-body">
+				        <div class="user-profile text-center">
+					        <div class="job">{{ a.firstname }} {{ a.lastname }}</div>
+							<div class="desc">หัวหน้าฝ่ายงาน</div>
+				        </div>
+			        </div>
+		        </div>
+                </a>
+	        </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+{% block javascripts %}
+{% endblock javascripts %}

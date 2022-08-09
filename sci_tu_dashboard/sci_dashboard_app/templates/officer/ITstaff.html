@@ -1,0 +1,279 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}เจ้าหน้าที่ฝ่ายเทคโนโลยีสารสนเทศ{% endblock %}
+{% block stylesheets %}
+{% endblock stylesheets %}
+{% block content %}
+<div class="content">
+    <div class="page-inner">
+		<div class="page-header">
+      <ul class="breadcrumbs">
+        <li class="nav-home">
+          <a href="#">
+            <i class="flaticon-home"></i>
+          </a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ITstaff' %}">เจ้าหน้าที่</a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ITstaff' %}">ฝ่ายเทคโนโลยีสารสนเทศ</a>
+        </li>
+      </ul>
+    </div>    
+        <h4 class="page-title">ฝ่ายเทคโนโลยีสารสนเทศ(IT Staff)</h4>
+        <div class="row">    
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header">
+                      <h4 class="card-title">กระดานบอร์ดสำหรับผู้บริหาร</h4>
+                  </div>
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-5 col-md-3">
+                              <div class="nav flex-column nav-pills nav-secondary nav-pills-no-bd" id="v-pills-tab-without-border" role="tablist" aria-orientation="vertical">
+                                  <button  class="nav-link active" onclick="changestatus(this)" value="total">งานทั้งหมด</button>
+                                  <button  class="nav-link" onclick="changestatus(this)" value="received">รับเรื่องเรียบร้อย</button>
+                                  <button  class="nav-link" onclick="changestatus(this)" value="pending">อยู่ระหว่างดำเนินงาน</button>
+                                  <button  class="nav-link" onclick="changestatus(this)" value="success">เสร็จสิ้น</button>
+                              </div>
+                          </div>
+                          <div class="col-7 col-md-8">
+                              <div>
+                                  <canvas id="myChart"></canvas>
+                                </div>                                  
+                          <div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="row">
+            {% for a in account %}
+            <div class="col-md-3">
+                <a href="{% url 'detailofficer' a.pk %}">
+		        <div class="card card-profile">
+			        <div class="card-header" style="background-image: url('https://appsrv1-147a1.kxcdn.com/atlantis-lite/img/blogpost.jpg')">
+				        <div class="profile-picture">
+					        <div class="avatar avatar-xl">
+                    {% if a.image %}
+                    <img src="{{ a.image.url }}" alt="Profile image here" class="avatar-img rounded-circle">
+                    {% else %}
+                    <img src="{% static 'assets/img/avatar.png' %}" alt="Profile image here" class="avatar-img rounded-circle">
+                    {% endif %}
+					        </div>
+				        </div>
+			        </div>
+			        <div class="card-body">
+				        <div class="user-profile text-center">
+					        <div class="job">{{ a.firstname }} {{ a.lastname }}</div>
+							<div class="desc">ฝ่ายเทคโนโลยีสารสนเทศ</div>
+				        </div>
+			        </div>
+		        </div>
+                </a>
+	        </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+{% block javascripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+// set up
+const img1 = new Image();
+img1.src = 'https://www.chartjs.org/img/chartjs-logo.svg';
+
+// data collection
+const datapoint = {{ datatotal|safe}};
+const labels = {{ labels|safe}};
+
+// convert to obmatch sll data into a ob, key value pair.
+let merged = labels.map((label, i) =>{
+    return {
+        "datapoint": datapoint[i],
+        "label": labels[i]}
+})
+// sort the ob based on DATAPOINT
+const dataSort = merged.sort(function (b,a){
+    return a.datapoint - b.datapoint
+});
+// 4 arrays which will be reassigned in the chart.
+const db = [];
+const lab = [];
+for(i=0; i<dataSort.length; i++){
+    db.push(dataSort[i].datapoint);
+    lab.push(dataSort[i].label);
+}
+
+console.log(db);
+console.log(lab);
+
+
+const data = {
+    labels: lab,
+    datasets: [{
+        label: 'จำนวนงาน',
+        data: db,
+        backgroundColor: "#5C55BF",
+    }]
+};
+// barAvatar Plugin block
+const barAvatar = {
+    id: 'barAvatar',
+    afterDatasetDraw(chart, args, options) {
+        const { ctx, chartArea: { top, bottom, left, right, width, height },
+            scales:{x,y} } = chart;
+        ctx.save();
+
+        console.log();
+        for(let i =0; i <= datapoint.length-1;i++)
+            ctx.drawImage(img1, x.getPixelForValue(db[i]), y.getPixelForValue(i)-(30/2),30,30)
+    }
+}
+// config
+const config = {
+    type: 'bar',
+    data,
+    options: {
+        indexAxis: 'y',
+        scales: {
+            x: {
+                beginAtZero: true,
+                max: {{max|safe}}
+            }
+        },
+        plugins:{
+          legend: false
+        }
+    }
+};
+// render / init block
+const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+);
+
+function changestatus(period){
+    const datapoint = []
+    const labels = []
+    if(period.value == 'total'){
+        const datapoint = {{ datatotal|safe}};
+        const labels = {{ labels|safe}};
+        let merged = labels.map((label, i) =>{
+            return {
+                "datapoint": datapoint[i],
+                "label": labels[i]}
+        })
+        const dataSort = merged.sort(function (b,a){
+            return a.datapoint - b.datapoint
+        });
+        const db = [];
+        const lab = [];
+        for(i=0; i<dataSort.length; i++){
+            db.push(dataSort[i].datapoint);
+            lab.push(dataSort[i].label);
+        }
+        const data = {
+            labels: lab,
+            datasets: [{
+                label: 'จำนวนงาน',
+                data: db,
+                backgroundColor: "#5C55BF",
+            }]
+        };
+        myChart.config.data = data
+    }else if(period.value == 'received'){
+        const datapoint = {{ datareceived|safe}};
+        const labels = {{ labels|safe}};
+        let merged = labels.map((label, i) =>{
+            return {
+                "datapoint": datapoint[i],
+                "label": labels[i]}
+        })
+        const dataSort = merged.sort(function (b,a){
+            return a.datapoint - b.datapoint
+        });
+        const db = [];
+        const lab = [];
+        for(i=0; i<dataSort.length; i++){
+            db.push(dataSort[i].datapoint);
+            lab.push(dataSort[i].label);
+        }
+        const data = {
+            labels: lab,
+            datasets: [{
+                label: 'จำนวนงาน',
+                data: db,
+                backgroundColor: "#3697E1",
+            }]
+        };
+        myChart.config.data = data
+    }else if(period.value == 'pending'){
+        const datapoint = {{ datapending|safe}};
+        const labels = {{ labels|safe}};
+        let merged = labels.map((label, i) =>{
+            return {
+                "datapoint": datapoint[i],
+                "label": labels[i]}
+        })
+        const dataSort = merged.sort(function (b,a){
+            return a.datapoint - b.datapoint
+        });
+        const db = [];
+        const lab = [];
+        for(i=0; i<dataSort.length; i++){
+            db.push(dataSort[i].datapoint);
+            lab.push(dataSort[i].label);
+        }
+        const data = {
+            labels: lab,
+            datasets: [{
+                label: 'จำนวนงาน',
+                data: db,
+                backgroundColor: "#FF9E27",
+            }]
+        };
+        myChart.config.data = data
+    }else if(period.value == 'success'){
+        const datapoint = {{ datasuccess|safe}};
+        const labels = {{ labels|safe}};
+        let merged = labels.map((label, i) =>{
+            return {
+                "datapoint": datapoint[i],
+                "label": labels[i]}
+        })
+        const dataSort = merged.sort(function (b,a){
+            return a.datapoint - b.datapoint
+        });
+        const db = [];
+        const lab = [];
+        for(i=0; i<dataSort.length; i++){
+            db.push(dataSort[i].datapoint);
+            lab.push(dataSort[i].label);
+        }
+        const data = {
+            labels: lab,
+            datasets: [{
+                label: 'จำนวนงาน',
+                data: db,
+                backgroundColor: "#2BB930",
+            }]
+        };
+        myChart.config.data = data
+    }
+    console.log(period.value)
+    
+    myChart.update()
+};
+
+</script>
+{% endblock javascripts %}

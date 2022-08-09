@@ -1,0 +1,437 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}เจ้าหน้าที่{% endblock %}
+{% block stylesheets %}
+{% endblock stylesheets %}
+{% block content %}
+<div class="content">
+     <div class="page-inner">
+	 	<div class="page-header">
+            <ul class="breadcrumbs">
+                <li class="nav-home">
+                    <a href="#">
+                        <i class="flaticon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+				{% if account.role == 'Rc'%}
+				<li class="nav-item">
+                    <a href="{% url 'roomcaretaker' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'roomcaretaker' %}">ฝ่ายดูแลรักษาความสะอาด</a>
+                </li>
+				{% elif account.role == 'Sv' %}
+				<li class="nav-item">
+                    <a href="{% url 'supervisor' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'supervisor' %}">หัวหน้าฝ่ายงาน</a>
+                </li>
+				{% elif account.role == 'Mt' %}
+				<li class="nav-item">
+                    <a href="{% url 'maintenance' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'maintenance' %}">ฝ่ายซ่อมบำรุง</a>
+                </li>
+				{% elif account.role == 'It' %}
+				<li class="nav-item">
+                    <a href="{% url 'ITstaff' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'ITstaff' %}">ฝ่ายเทคโนโลยีสารสนเทศ</a>
+                </li>
+				{% endif %}
+            </ul>
+        </div>   
+        {{ calendar }}
+        {% if messages %}
+          {% for message in messages %}
+          <div class="alert alert-dismissible alert-success">
+               <button type="button" class="close" data-dismiss="alert">×</button>
+               <strong>{{message}}<strong>
+          </div>
+          {% endfor %}
+          {% endif %}
+        <div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">ประวัติข้อมูลเจ้าหน้าที่ 
+                                   {% for group in request.user.groups.all %}
+                                   {% if group.name == 'scitu-staff' %}
+                                   <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Profile"> 
+                                        <a href="{% url 'edit-profile' account.pk %}"><i class="fa fa-edit"></i> </a>
+                                   </button>
+                                   {% endif %}
+						     {% endfor %}
+                              </div>
+					</div>
+					<div class="card-body">
+						<div class="row row-demo-grid ">
+                                   <div class="col-sm-6 col-md-3 ">
+                                        {% if account.image %}
+                                        <img src="{{ account.image.url }}" alt="Profile image here" class="avatar-img rounded">
+                                        {% else %}
+                                        <img src="{% static 'assets/img/avatar.png' %}" alt="Profile image here" class="avatar-img rounded">
+                                        {% endif %}
+                                   </div>
+                                   <div class="col-md-6 col-lg-4">
+                                        <div class="form-group">
+                                             <label class="control-label">
+                                                  ชื่อ
+                                             </label>
+                                             <input type="text" class="form-control" value="{{account.firstname}}" placeholder="Enter Input" disabled>
+                                        </div>
+                                       <div class="form-group">
+                                             <label for="disableinput">ฝ่ายงาน</label>
+                                             {% if account.role == 'Rc' %}
+                                             <input type="text" class="form-control" value="ดูแลรักษาความสะอาด" placeholder="Enter Input" disabled>
+                                             {% elif account.role == 'It' %}
+                                             <input type="text" class="form-control" value="เทคโนโลยีสารสนเทศ" placeholder="Enter Input" disabled>
+                                             {% elif account.role == 'Mt' %}
+                                             <input type="text" class="form-control" value="ซ่อมบำรุง(Maintenance)" placeholder="Enter Input" disabled>
+                                             {% elif account.role == 'Sv' %}
+                                             <input type="text" class="form-control" value="หัวหน้างาน" placeholder="Enter Input" disabled>
+                                             {% endif %}
+                                       </div>
+                                   </div>
+                                   <div class="col-md-6 col-lg-4">
+                                        <div class="form-group">
+                                             <label class="control-label">
+                                                  นามสกุล
+                                             </label> 
+                                             <input type="text" class="form-control" value="{{account.lastname}}" placeholder="Enter Input" disabled>
+                                        </div>
+                                        <div class="form-group">
+                                             <label class="control-label">
+                                                  เบอร์โทรติดต่อ
+                                             </label>
+                                             <input type="text" class="form-control" value="09x-xxx-xxxx" placeholder="Enter Input" disabled>
+                                        </div>
+                                        <div class="form-group">
+                                             <label class="control-label">
+                                                  E-mail
+                                             </label>
+                                             <input type="text" class="form-control" value="{{ account.email }}" placeholder="Enter Input" disabled>
+                                        </div>
+                                   </div>
+                               </div>
+                           </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="page-inner mt--5">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="card">
+                  <div class="card-body">
+                       <div class="row">
+                            <div class="col">
+                                 <div class="form-group">
+                                      <h5>จำนวนงานที่รับมอบหมาย</h5>
+                                      <h5>จำนวนงานที่สำเร็จ</h5>    
+                                      <h5>จำนวนงานที่รับผิดชอบในปัจจุบัน</h5>
+                                      <h5>เวลาการทำงานเฉลี่ย</h5>        
+                                      <h5>เวลาการทำงานมากสุด (Max)</h5>
+                                      <h5>เวลาการทำงานน้อยสุด (Min)</h5>            
+                                 </div>
+                            </div>
+                            <div class="col">
+                                 <div class="form-group">
+                                      <h5>{{ total_report }} รายการ</h5>    
+                                      <h5>{{ success_report }} รายการ</h5>    
+                                      <h5>{{ now_report }} รายการ</h5>    
+                                      <h5>{{ day }} วัน/รายการ ({{ hour }} ชั่วโมง {{ mi }} นาที)</h5>
+                                      <h5>{{ daymax }} วัน/รายการ ({{ hourmax }} ชั่วโมง {{ mimax }} นาที)</h5>   
+                                      <h5>{{ daymin }} วัน/รายการ ({{ hourmin }} ชั่วโมง {{ mimin }} นาที)</h5>           
+                                 </div>
+                            </div>
+                       </div>
+                  </div>              
+                             </div>
+                             <div class="card">
+                                  <div class="card-header">
+                                       <div class="card-title">กราฟแสดงผลงานรายวัน (7 วันย้อนหลัง)</div>
+                                       <canvas id="chart"></canvas>
+                                  </div>
+                                  <div class="card-body pb-0">
+                                        
+                                  </div>
+                             </div>
+                             <div class="card">
+                              <div class="card-header">
+                                   <div class="card-title">กราฟแสดงผลงานรายเดือน (6 เดือนย้อนหลัง)</div>
+                                   <canvas id="chartMonth"></canvas>
+                              </div>
+                              <div class="card-body pb-0">
+                                    
+                              </div>
+                         </div>
+                        </div>
+                        <div class="col-md-5">
+                             <div class="card full-height">
+                    <div class="card-header" id="datadiv">
+                         <div id='calendar'></div>
+                        <div class="card-title">ตารางกิจกรรม</div>
+                    </div>
+                    <div class="card-body">
+                        <ol class="activity-feed" id="list">
+                            {% comment %} <li class="feed-item feed-item-secondary">
+                                <time class="date" datetime="9-25" id="log">Mar 05</time>
+                                <span class="text" id="event">Responded to need</span>
+                                <div id="status"></div>
+                            </li> {% endcomment %}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+                        </div>
+                    <div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="card-title">ตารางแสดงปัญหาที่เกิดขึ้น</h4>
+						</div>
+						<div class="card-body">
+							<div class="table-responsive">
+								<table id="basic-datatables" class="display table table-striped table-hover" >
+									<thead>
+										<tr>
+											<th>วัน/เวลาแจ้งปัญหา</th>
+                                                       <th>วัน/เวลาแก้ไขล่าสุด</th>
+                                                       <th>ประเภท</th>
+                                                       <th>สถานะ</th>
+                                                       <th>ห้อง</th>
+                                                       <th>อาคาร</th>
+                                                       <th>รายละเอียด</th>
+										</tr>
+									</thead>
+									<tfoot>
+										<tr>
+											<th>วัน/เวลาแจ้งปัญหา</th>
+                                                       <th>วัน/เวลาแก้ไขล่าสุด</th>
+                                                       <th>ประเภท</th>
+                                                       <th>สถานะ</th>
+                                                       <th>ห้อง</th>
+                                                       <th>อาคาร</th>
+                                                       <th>รายละเอียด</th>
+										</tr>
+									</tfoot>  
+                                             <tbody>
+                                             {% for r in report %}
+                                                  <tr>
+                                                       <td>{{ r.timestamp|date:'Y-m-d H:i' }}</td>
+                                                       <td>{{ r.lastModified|date:'Y-m-d H:i' }}</td>
+                                                       <td>{{ r.type }}</td>
+                                                       <td>{{ r.statusReport }}</td>
+                                                       <td>{{ r.room }}</td>
+                                                       <td>{{ r.building }}</td>
+                                                       <td>{{ r.description }}</td>
+                                                  </tr>
+                                             {% endfor %}
+                                             </tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+          </div>
+     </div>
+</div>
+
+{% endblock content %}
+{% block javascripts %}
+<script src="https://jsuites.net/v4/jsuites.js"></script>
+<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+<script>
+     var current;
+     jSuites.calendar(document.getElementById('calendar'), {
+          format: 'YYYY-MM-DD',
+          onupdate: function(a,b) {
+              current = b;
+              document.getElementById('list').innerHTML = '';
+              {% for r in report %}
+              var date = "{{r.lastModified|date:'Y-m-d'}}";
+              var dateTime = "{{r.lastModified}}";
+              var build = [];
+              date = new Date(date);
+              date.setHours(0,0,0,0);
+              var date2 = new Date(current);
+              var result = date.getTime() === date2.getTime();
+              var tpye = [];
+              var status = [];
+              if (result === true) {
+                    tpye.push("{{r.type}}");
+                    status.push("{{r.statusReport}}");
+                    build.push("{{r.building}}");
+               }
+               for (var i = 0; i < tpye.length; i++) {
+                    el = document.createElement('li');
+                    text = document.createElement('time');
+                    text.className = "date";
+                    span = document.createElement('span');
+                    span.className = "text";
+                    span1 = document.createElement('span');
+                    span.className = "text";
+                    
+                    var options = { hour12: true };
+                    dateTime = dateTime.toLocaleString('en-US', options);
+                    const time = dateTime.split(" ");
+                    if(status[i]=="success"){
+                         el.className = "feed-item feed-item-success";
+                         text.innerHTML = "เสร็จสิ้น เมื่อ "+time[3]+" "+time[4];
+                    }else if(status[i]=="received"){
+                         el.className = "feed-item feed-item-info";
+                         text.innerHTML = "รับเรื่องเรียบร้อย เมื่อ "+time[3]+" "+time[4];
+                    }else if(status[i]=="pending"){
+                         el.className = "feed-item feed-item-warning";
+                         text.innerHTML = "อยู่ระหว่างดำเนินการ เมื่อ "+time[3]+" "+time[4];
+                    }else if(status[i]=="start"){
+                         el.className = "feed-item feed-item-danger";
+                         text.innerHTML = "เริ่มต้น เมื่อเวลา เมื่อ"+time[3]+" "+time[4];
+                    }
+
+                    span.innerHTML = "ปัญหาด้าน "+tpye[i];
+                    el.appendChild(text);
+                    el.appendChild(span);
+                    el.appendChild(span1);
+                    document.getElementById('list').appendChild(el);
+               }
+              {% endfor %}
+          }
+      });
+</script>
+<script >
+		$(document).ready(function() {
+			$('#basic-datatables').DataTable({
+                    order: [ 0, 'desc']
+			});
+
+			$('#multi-filter-select').DataTable( {
+				"pageLength": 5,
+				initComplete: function () {
+					this.api().columns().every( function () {
+						var column = this;
+						var select = $('<select class="form-control"><option value=""></option></select>')
+						.appendTo( $(column.footer()).empty() )
+						.on( 'change', function () {
+							var val = $.fn.dataTable.util.escapeRegex(
+								$(this).val()
+								);
+
+							column
+							.search( val ? '^'+val+'$' : '', true, false )
+							.draw();
+						} );
+
+						column.data().unique().sort().each( function ( d, j ) {
+							select.append( '<option value="'+d+'">'+d+'</option>' )
+						} );
+					} );
+				}
+			});
+
+			// Add Row
+			$('#add-row').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+		});
+	</script>
+     <script>
+          var ctx = document.getElementById('chart');
+
+          var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: {{ daydate|safe }},
+              datasets: [
+                {
+                  label: 'รับเรื่องเรียบร้อย',
+                  data: [5,0,0,0,5,6,2],
+                  backgroundColor: '#D8E9A8',
+                },
+                {
+                  label: 'อยู่ระหว่างดำเนินการ',
+                  data: [0,1,4,0,0,1,2],
+                  backgroundColor: '#4E9F3D',
+                },
+                {
+                  label: 'เสร็จสิ้น',
+                  data: [2,0,1,0,0,1,5],
+                  backgroundColor: '#1E5128',
+                }
+              ]
+            },
+            options: {
+              scales: {
+                xAxes: [{ stacked: true }],
+                yAxes: [{ stacked: true }]
+              }
+            }
+          });
+     </script>
+     <script>
+          var ctx = document.getElementById('chartMonth');
+
+          var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: {{ monthdate|safe }},
+              datasets: [
+                {
+                  label: 'รับเรื่องเรียบร้อย',
+                  data: [5,0,0,0,5,6,2],
+                  backgroundColor: '#A7C4BC',
+                },
+                {
+                  label: 'อยู่ระหว่างดำเนินการ',
+                  data: [0,1,4,0,0,1,2],
+                  backgroundColor: '#5E8B7E',
+                },
+                {
+                  label: 'เสร็จสิ้น',
+                  data: [2,0,1,0,0,1,5],
+                  backgroundColor: '#2F5D62',
+                }
+              ]
+            },
+            options: {
+              scales: {
+                xAxes: [{ stacked: true }],
+                yAxes: [{ stacked: true }]
+              }
+            }
+          });
+     </script>
+{% endblock javascripts %}

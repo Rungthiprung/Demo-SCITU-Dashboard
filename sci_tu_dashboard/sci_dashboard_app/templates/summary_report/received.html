@@ -1,0 +1,335 @@
+{% extends "base.html" %}
+
+{% block title %}ผลการแจ้งปัญหาตามสถานะ{% endblock %}
+{% block stylesheets %}{% endblock stylesheets %}
+{% block content %}
+
+<div class="content">
+  <div class="page-inner">
+    <div class="page-header">
+      <ul class="breadcrumbs">
+        <li class="nav-home">
+          <a href="#">
+            <i class="flaticon-home"></i>
+          </a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">ผลการแจ้งปัญหา</a>
+        </li>
+        <li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">แสดงตามสถานะ</a>
+        </li>
+		<li class="separator">
+          <i class="flaticon-right-arrow"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">รับเรื่องเรียบร้อย</a>
+        </li>
+      </ul>
+    </div>
+	<div>
+		<div class="card p-3">
+			<h5 class="op-7 mb-2 ">โปรดระบุช่วงเวลาสำหรับแสดงข้อมูล</h5>
+			<div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc;">
+				<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+				<span id="date"></span>&nbsp;&nbsp;
+				<i class="fa fa-caret-down"></i>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+			<div class="col-sm-6 col-lg-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center">
+							<span class="stamp stamp-md bg-danger mr-3">
+								<i class="fa fa-flag"></i>
+							</span>
+							<div>
+								<h5 class="mb-1"><b><a href="{% url 'start' %}"><small>เริ่มต้น</small></a></b></h5>
+								<small class="text-muted">{{ countStart }} รายการ</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card p-3 bg-info2">
+						<div class="d-flex align-items-center">
+							<span class="stamp stamp-md bg-info2 mr-3">
+								<i class="fa fa-archive"></i>
+							</span>
+							<div>
+								<h5 class="mb-1 text-white"><b><a href="{% url 'received' %}"><small>รับเรื่องเรียบร้อย</small></a></b></h5>
+								<small class="text-white">{{ countReceived }} รายการ</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center">
+							<span class="stamp stamp-md bg-warning2 mr-3">
+								<i class="fa fa-spinner"></i>
+							</span>
+							<div>
+								<h5 class="mb-1"><b><a href="{% url 'pending' %}"><small>อยู่ระหว่างดำเนินการ</small></a></b></h5>
+								<small class="text-muted">{{ countPending }} รายการ</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card p-3">
+						<div class="d-flex align-items-center">
+							<span class="stamp stamp-md bg-success2 mr-3">
+								<i class="fa fa-check-circle"></i>
+							</span>
+							<div>
+								<h5 class="mb-1"><b><a href="{% url 'success' %}"><small>เสร็จสิ้น</small></a></b></h5>
+								<small class="text-muted">{{ countSuccess }} รายการ</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-head-row">
+								<div class="card-title">กราฟแสดงปัญหา "รับเรื่องเรียบร้อย" แยกตามประเภท</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="chart-container" style="min-height: 300px">
+								<canvas id="myChart" width="400" height="180"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card p-3">
+                        <div class="d-flex align-items-center">
+							<span class="stamp stamp-md bg-secondary2 mr-3">
+								<i class="flaticon-layers"></i>
+							</span>
+							<div>
+								<h5 class="mb-1"><b><a href="{% url 'reportbystatus' %}"><small>ปัญหาทั้งหมด</small></a></b></h5>
+								<small class="text-muted">{{ countReport }} รายการ</small>
+							</div>
+						</div>
+					</div>
+					<div class="card card-default">
+						<div class="card-body">
+							<div class="mb-2 mt-2">
+							<h5>ปัญหาสถานะ "รับเรื่องเรียบร้อย"</h5>
+							<h5>แยกตามประเภท</h5>
+								<div class="row">
+									<div class="col-7">
+										{% for l in labels %}
+										<small>{{ l }}</small><br>
+										{% endfor %}
+									</div>
+									<div class="col-5">
+										{% for r in received %}
+										<small>{{r}}  </small><small> รายการ</small><br>
+										{% endfor %}
+									</div>
+								</div>
+							</div>
+							<div class="pull-in">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    <div class="row">
+      <div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="card-title">ตารางแสดงปัญหา "รับเรื่องเรียบร้อย" ที่เกิดขึ้น</h4>
+						</div>
+						<div class="card-body">
+							<div class="table-responsive">
+								<table id="basic-datatables" class="display table table-striped table-hover" >
+									<thead>
+										<tr>
+											<th>วัน/เวลาแจ้งปัญหา</th>
+                      <th>วัน/เวลาแก้ไขล่าสุด</th>
+                      <th>ผู้รับผิดชอบ</th>
+                      <th>ประเภท</th>
+                      <th>รายละเอียด</th>
+										  </tr>
+									</thead>
+									<tfoot>
+										<tr>
+											<th>วัน/เวลาแจ้งปัญหา</th>
+                      <th>วัน/เวลาแก้ไขล่าสุด</th>
+                      <th>ผู้รับผิดชอบ</th>
+                      <th>ประเภท</th>
+                      <th>รายละเอียด</th>
+										  </tr>
+									</tfoot>  
+                  <tbody>
+                  {% for r in report %}
+                    <tr>
+                      <td>{{ r.timestamp|date:'d/m/y H:i' }}</td>
+                      <td>{{ r.lastModified|date:'d/m/y H:i' }}</td>
+                      {% if r.takecareBy == null %}
+					  <td>ไม่มี</td>
+                      {% elif r.takecareBy != null %}
+                      <td><a href="{% url 'detailofficer' r.takecareBy.pk %}">{{ r.takecareBy }}</td>
+                      {% endif %}
+                      <td>{{ r.type }}</td>
+                      <td>{{ r.description }}</td> 
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block javascripts %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+<script type="text/javascript">
+    var startdate;
+    var enddate;
+        $('#reportrange').daterangepicker({
+            startDate: moment().subtract(29,'days'),
+            endDate: moment(),
+            ranges: {
+               'Today': [moment(), moment()],
+               'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+               'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+               'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+			   'Last 6 Month': [moment().subtract(6, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+			   'Last 12 Month': [moment().subtract(12, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+            }
+        }, function(start, end){
+          $('#date').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+            console.log("Callback has been called!");
+              var url = new URL(document.location.href);
+              var search_params = url.searchParams;
+              search_params.set('start_date', start.format('YYYY-MM-DD'));
+              search_params.set('end_date', end.format('YYYY-MM-DD'));
+              url.search = search_params.toString();
+              var new_url = url.toString();
+              //alert(new_url);
+              window.location.replace(new_url);
+              $('#date').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        });
+        //alert(document.location.href);
+        let params = (new URL(document.location.href)).searchParams;
+        let start = new Date(params.get('start_date'));
+        let end = new Date(params.get('end_date'));
+        
+       $('#date').html( start.toLocaleDateString('en-us', { year:"numeric", month:"long", day: "numeric"}) + ' - ' 
+                    + end.toLocaleDateString('en-us', { year:"numeric", month:"long", day: "numeric"}) );
+  </script>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'bar',
+            data: {
+                labels: {{ labels|safe }},
+                datasets: [{
+                    label: 'ร้อยละ',
+                    data: {{ receivedper|safe }},
+                    backgroundColor: "#3697E1",
+                    borderWidth: 1
+                }]
+            },
+            options: {
+				legend:{
+					display: false
+				},
+                scales: {
+                    yAxes: [{
+						scaleLabel: {
+        					display: true,
+        					labelString: 'สัดส่วนปัญหา (เปอร์เซ็นต์)'
+      					},
+						ticks: {
+                                beginAtZero: true,
+                                stepSize: 20,
+                                max: 100
+                            }
+                    }],
+					xAxes: [{
+						scaleLabel: {
+        					display: true,
+        					labelString: 'ประเภทของปัญหา',
+							padding: -1
+      					},
+						ticks: {
+							autoSkip: false
+						}
+                    }]
+                }
+            }
+});
+</script>
+<script >
+		$(document).ready(function() {
+			$('#basic-datatables').DataTable({
+			});
+
+			$('#multi-filter-select').DataTable( {
+				"pageLength": 5,
+				initComplete: function () {
+					this.api().columns().every( function () {
+						var column = this;
+						var select = $('<select class="form-control"><option value=""></option></select>')
+						.appendTo( $(column.footer()).empty() )
+						.on( 'change', function () {
+							var val = $.fn.dataTable.util.escapeRegex(
+								$(this).val()
+								);
+
+							column
+							.search( val ? '^'+val+'$' : '', true, false )
+							.draw();
+						} );
+
+						column.data().unique().sort().each( function ( d, j ) {
+							select.append( '<option value="'+d+'">'+d+'</option>' )
+						} );
+					} );
+				}
+			});
+
+			// Add Row
+			$('#add-row').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+		});
+	</script>
+
+{% endblock javascripts %}

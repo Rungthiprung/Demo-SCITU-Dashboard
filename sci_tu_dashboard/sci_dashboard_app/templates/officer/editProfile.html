@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}เจ้าหน้าที่{% endblock %}
+{% block stylesheets %}
+{% endblock stylesheets %}
+{% block content %}
+<div class="content">
+     <div class="page-inner">
+	 	<div class="page-header">
+            <ul class="breadcrumbs">
+                <li class="nav-home">
+                    <a href="#">
+                        <i class="flaticon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+				{% if account.role == 'Rc'%}
+				<li class="nav-item">
+                    <a href="{% url 'roomcaretaker' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'roomcaretaker' %}">ฝ่ายดูแลรักษาความสะอาด</a>
+                </li>
+				{% elif account.role == 'Sv' %}
+				<li class="nav-item">
+                    <a href="{% url 'supervisor' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'supervisor' %}">หัวหน้าฝ่ายงาน</a>
+                </li>
+				{% elif account.role == 'Mt' %}
+				<li class="nav-item">
+                    <a href="{% url 'maintenance' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'maintenance' %}">ฝ่ายซ่อมบำรุง</a>
+                </li>
+				{% elif account.role == 'It' %}
+				<li class="nav-item">
+                    <a href="{% url 'ITstaff' %}">เจ้าหน้าที่</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'ITstaff' %}">ฝ่ายเทคโนโลยีสารสนเทศ</a>
+                </li>
+				{% endif %}
+            </ul>
+        </div>   
+        {{ calendar }}
+        <div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">ประวัติข้อมูลเจ้าหน้าที่</div>
+					</div>
+					<div class="card-body">
+                        <form action="" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+						<div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                {% if account.image %}
+                                <img src="{{ account.image.url }}" alt="Profile image here" class="avatar-img rounded">
+                                {% else %}
+                                <img src="{% static 'assets/img/avatar.png' %}" alt="Profile image here" class="avatar-img rounded">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form-group">
+                                    <label for="firstname">ชื่อ</label>
+                                    <input type="text" Required name="firstname" class="form-control" value="{{account.firstname}}" placeholder="Firstname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="disableinput">ฝ่ายงาน</label>
+                                    {% if account.role == 'Rc' %}
+                                    <input type="text" class="form-control" value="ดูแลรักษาความสะอาด" placeholder="Enter Input" disabled>
+                                    {% elif account.role == 'It' %}
+                                    <input type="text" class="form-control" value="เทคโนโลยีสารสนเทศ" placeholder="Enter Input" disabled>
+                                    {% elif account.role == 'Mt' %}
+                                    <input type="text" class="form-control" value="ซ่อมบำรุง(Maintenance)" placeholder="Enter Input" disabled>
+                                    {% elif account.role == 'Sv' %}
+                                    <input type="text" class="form-control" value="หัวหน้างาน" placeholder="Enter Input" disabled>
+                                    {% endif %}
+                                </div>
+                                <div class="form-group">
+                                    <label for="profileImage">Profile image</label>
+                                    <input type="file" name="image" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form-group">
+                                    <label for="firstname">นามสกุล</label>
+                                    <input type="text" Required name="lastname" class="form-control" value="{{account.lastname}}" placeholder="Lastname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phonenum">เบอร์โทรติดต่อ</label>
+                                    <input type="text" Required name="phonenum" class="form-control" value="09x-xxx-xxxx" placeholder="เบอร์โทรติดต่อ">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="text" Required name="email" class="form-control" value="{{ account.email }}" placeholder="E-mail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <button type="submit" class="btn btn-warning">Update</button>
+                        <button class="btn btn-danger">Cancel</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+{% block javascripts %}
+{% endblock javascripts %}

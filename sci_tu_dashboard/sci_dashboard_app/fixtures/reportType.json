@@ -1,0 +1,81 @@
+[{
+        "model": "sci_dashboard_app.reportType",
+        "pk": 1,
+        "fields": {
+            "reportType": "ไอทีและอินเทอร์เน็ต",
+            "labels": "IT"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 2,
+        "fields": {
+            "reportType": "สื่อการเรียนการสอน",
+            "labels": "สื่อการเรียน"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 3,
+        "fields": {
+            "reportType": "ระบบไฟฟ้า",
+            "labels": "ไฟฟ้า"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 4,
+        "fields": {
+            "reportType": "ระบบประปา",
+            "labels": "ประปา"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 5,
+        "fields": {
+            "reportType": "ระบบโทรศัพท์",
+            "labels": "โทรศัพท์"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 6,
+        "fields": {
+            "reportType": "ระบบเครื่องปรับอากาศ",
+            "labels": "เครื่องปรับอากาศ"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 7,
+        "fields": {
+            "reportType": "วัสดุภายในห้อง",
+            "labels": "วัสดุภายในห้อง"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 8,
+        "fields": {
+            "reportType": "ความสะอาดและความปลอดภัย",
+            "labels": "ความสะอาด"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 9,
+        "fields": {
+            "reportType": "อาคารและสิ่งแวดล้อม",
+            "labels": "อาคาร"
+        }
+    },
+    {
+        "model": "sci_dashboard_app.reportType",
+        "pk": 10,
+        "fields": {
+            "reportType": "อื่นๆ",
+            "labels": "อื่นๆ"
+        }
+    }
+]
